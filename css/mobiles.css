@@ -1,0 +1,125 @@
+.video1 {  
+  position: fixed;
+  top: 0;
+  z-index: -20;
+  width: 100%;
+  height: 750px;
+}
+
+.video2 {
+  width: 100%;
+  height: 750px;
+}
+
+.mobiles-content {
+  margin-top: 600px;
+  background-color: white;
+}
+
+.mobiles {
+  margin: 0 2em;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+iframe {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+iframe:hover {
+  opacity: 1;
+}
+
+.product-pic1 {
+  background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/b/r/f/-original-imaghkvuhzwge3za.jpeg?q=70");
+}
+
+.product-pic2 {
+  background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/a/x/6/-original-imagqhyfh7ykyjby.jpeg?q=70");
+}
+
+.product-pic3 {
+  background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/g/c/5/-original-imaggcz8kjjfgfvf.jpeg?q=70");
+}
+
+.product-pic4 {
+  background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/u/m/b/-original-imagrdefbw6bhbjr.jpeg?q=70");
+}
+
+.product-pic5 {
+  background-image: url("https://m.media-amazon.com/images/I/613SAOPmLeL._SX679_.jpg");
+}
+
+.product-pic6 {
+  background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/k/u/6/-original-imaghxen343tbjgj.jpeg?q=70");
+}
+
+.product-pic7 {
+  background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/3/5/l/-original-imaghx9qmgqsk9s4.jpeg?q=70");
+}
+
+.product-pic8 {
+  background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/0/x/v/-original-imagqadf2awzzmyf.jpeg?q=70");
+}
+
+.product-pic9 {
+  background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/3/a/x/f5-5g-mzb0e7kin-poco-original-imagpep3dcnkbxp4.jpeg?q=70");
+}
+
+.product-pic10 {
+  background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/q/t/h/galaxy-f54-5g-sm-e546bzshins-samsung-original-imagq79f82pfyzvh.jpeg?q=70");
+}
+
+.product-pic11 {
+  background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/2/m/o/edge-40-pay40030in-motorola-original-imagpqzchzhg6fex.jpeg?q=70");
+}
+
+.product-pic12 {
+  background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/b/f/m/-original-imagna3ezkdusyrz.jpeg?q=70");
+}
+
+.product-pic13 {
+  background-image: url("https://m.media-amazon.com/images/I/61RvCwjI7dL._SX679_.jpg");
+}
+
+
+.product-pic14 {
+  background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/i/x/h/gt-10-pro-x6739-infinix-original-imagsyp4hj5rshhz.jpeg?q=70");
+}
+
+
+.product-pic15 {
+  background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/b/x/i/galaxy-fold5-sm-f946bzkdins-samsung-original-imagru9nrhhmd9hz.jpeg?q=70");
+}
+
+
+.product-pic16 {
+  background-image: url("https://rukminim2.flixcart.com/image/832/832/ky7lci80/mobile/k/b/g/-original-imagagf6fzbhuhny.jpeg?q=70");
+}
+
+
+.product-pic17 {
+  background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/q/q/w/galaxy-s23-ultra-5g-smartphone-sm-s918bzkcins-samsung-original-imagqjczezmgquhb.jpeg?q=70");
+}
+
+
+.product-pic18 {
+  background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/t/u/m/-original-imaggsuehy3nyj3b.jpeg?q=70");
+  background-size: 80%;
+}
+
+.banner {
+  background-image: url(/images/banner.jpg);
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

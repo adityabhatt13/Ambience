@@ -1,0 +1,258 @@
+.categories-header {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1em 1em 3em;
+}
+
+/* VERTICAL */
+.category {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    margin-top: 1em;
+}
+
+.mainsubcategory {
+    width: 60%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.25s;
+}
+
+.mainsubcategory:hover {
+    scale: 0.95;
+}
+
+.mainsubcategory-heading {
+    width: 100%;
+    height: 55%;
+    padding-top: 75%;
+    font-size: 30px;
+    text-align: center;
+    transition: 0.25s;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.300);
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 3px;
+}
+
+.mainsubcategory-heading:hover {
+    cursor:pointer;
+    background-color: rgba(0, 0, 0, 0.500);
+    letter-spacing: 6px;
+}
+
+.subcategories {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.subcategory-heading {
+    background-color: rgba(0, 0, 0, 0.300);
+    padding-top: 40%;
+    text-align: center;
+    height: 52%;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    transition: 0.25s;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.subcategory-heading:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.500);
+    letter-spacing: 6px;
+}
+
+/* HORIZONTAL */
+
+.category2 {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.mainsubcategory2 {
+    width: 100%;
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.25s;
+}
+
+.mainsubcategory2:hover {
+    scale: 0.95;
+}
+
+.mainsubcategory2-heading {
+    width: 100%;
+    height: 55%;
+    padding-top: 27%;
+    font-size: 30px;
+    text-align: center;
+    transition: 0.25s;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.300);
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 3px;
+}
+
+.mainsubcategory2-heading:hover {
+    cursor:pointer;
+    background-color: rgba(0, 0, 0, 0.500);
+    letter-spacing: 6px;
+}
+
+.subcategories2 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+.subcategory2-heading {
+    width: 100%;
+    padding-top: 50%;
+    height: 58%;
+    background-color: rgba(0, 0, 0, 0.300);
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    transition: 0.25s;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.subcategory2-heading:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.500);
+    letter-spacing: 6px;
+}
+
+/* COMMON */
+
+.subcategory {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.25s;
+}
+
+.subcategory:hover {
+    scale: 0.95;
+}
+
+/* PICS */
+
+.mainsubcategory-1 {
+    background-image: url("https://m-cdn.phonearena.com/images/article/64576-wide-two_1200/The-Best-Phones-to-buy-in-2023---our-top-10-list.webp?1691068570");
+}
+
+.mainsubcategory-2 {
+    background-image: url("https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg");
+}
+
+.mainsubcategory-3 {
+    background-image: url("https://cdn.thewirecutter.com/wp-content/media/2023/07/bluetoothheadphones-2048px-6109-2x1-1.jpg?auto=webp&quality=75&crop=2:1&width=980&dpr=2");
+}
+
+.mainsubcategory-4 {
+    background-image: url("https://media.wired.com/photos/6318eb9a74ce5b82a68ef041/master/w_1920%2Cc_limit/Apple-Watch-Series-8-Group-Colors-Gear.jpg");
+}
+
+.mainsubcategory-5 {
+    background-image: url("https://imageio.forbes.com/specials-images/imageserve/615b7a2d10f14c6d90c57d56/Small-appliances-on-a-kitchen-countertop-/960x0.jpg?format=jpg&width=960");
+}
+
+.mainsubcategory-6 {
+    background-image: url("https://img.freepik.com/free-vector/household-appliances-realistic-composition_1284-65307.jpg?w=1060&t=st=1692537103~exp=1692537703~hmac=9a9d3c7015730b143bee5140b8c2c9cd68f3f4b233517c62f6b88d9330162bd0");
+}
+
+.subcategory-1 {
+    background-image: url("https://www.techspot.com/articles-info/2459/images/2022-05-28-image.jpg");
+}
+
+.subcategory-2 {
+    background-image: url("https://m.media-amazon.com/images/I/71O+mnkq-CL._SL1500_.jpg");
+}
+
+.subcategory-3 {
+    background-image: url("https://zapvi.in/wp-content/uploads/2021/07/1.jpg");
+}
+
+.subcategory-4 {
+    background-image: url("https://media.wired.com/photos/59ea9a8358c149756896692c/master/w_1920,c_limit/imac_5k_JV1.jpg");
+}
+
+.subcategory-5 {
+    background-image: url("https://www.trustedreviews.com/wp-content/uploads/sites/54/2021/07/Samsung-Neo-G9-01-1024x683.jpg");
+}
+
+.subcategory-6 {
+    background-image: url("https://www.ebuyer.com/blog/wp-content/uploads/2022/10/shutterstock_693701887.jpg");
+}
+
+.subcategory-7 {
+    background-image: url("https://www.bestcheck.in/wp-content/uploads/2022/12/maxresdefault-2.jpg");
+}
+
+.subcategory-8 {
+    background-image: url("https://images.pexels.com/photos/2651794/pexels-photo-2651794.jpeg");
+}
+
+.subcategory-9 {
+    background-image: url("https://images.pexels.com/photos/164745/pexels-photo-164745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+
+.subcategory-10 {
+    background-image: url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/202108/Mi_Smart_Band_6.png?size=690:388");
+}
+
+.subcategory-11 {
+    background-image: url("https://actofit.com/cdn/shop/files/SmartRing_1_610x_crop_center.png?v=1687241510");
+}
+
+.subcategory-12 {
+    background-image: url("https://images.pexels.com/photos/3761137/pexels-photo-3761137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+
+.subcategory-13 {
+    background-image: url("https://images.pexels.com/photos/4686822/pexels-photo-4686822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+
+.subcategory-14 {
+    background-image: url("https://www.jagranimages.com/images/newimg/05072023/05_07_2023-10_best_water_purifier_july_2023_23461862.jpg");
+}
+
+.subcategory-15 {
+    background-image: url("https://orpatgroup.com/wp-content/uploads/2022/08/003.jpg");
+}
+
+.subcategory-16 {
+    background-image: url("https://imgeng.jagran.com/images/2023/aug/Air%20Conditioner%20Buying%20Guide%20Features%20And%20Aspects%20To%20Consider%20The%20Best%20AC%20Brand1691499253692.jpg");
+}
+
+.subcategory-17 {
+    background-image: url("https://img.etimg.com/thumb/msid-98706343,width-300,height-225,imgsize-48608,,resizemode-75/10-best-side-by-side-refrigerators-in-india-for-bigger-needs.jpg");
+}
+
+.subcategory-18 {
+    background-image: url("https://images.pexels.com/photos/4700383/pexels-photo-4700383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}

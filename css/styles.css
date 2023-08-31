@@ -1,0 +1,423 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: bahnschrift;
+    box-sizing: border-box;
+}
+
+.header {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.search {
+    display: flex;
+}
+
+.searchbar {
+    padding-left: 5px;
+    width: 15em;
+    height: 32px;
+    border-radius: 100px 0 0 100px;
+    border: 1px solid rgb(193, 193, 193);
+    transition: 0.4s;
+}
+
+.searchbar:focus{
+    outline: none;
+    border: 1px solid black;
+}
+.submit-btn {
+    border-radius: 0px 100px 100px 0px;
+    border: 1px solid rgb(193, 193, 193);
+    height: 35px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.submit-btn:hover {
+    outline: none;
+    color: rgb(255, 68, 0);
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    z-index: 1000;
+}
+
+.account {
+    font-size: smaller;
+}
+
+nav a {
+    padding: 10px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+nav a:hover {
+    color: rgb(92, 92, 92);
+}
+
+.active-now {
+    color: black;
+    text-decoration: underline rgb(135, 159, 255) 3px;
+}
+
+.active-now:hover {
+    color: black;
+}
+
+
+.indexvideo {
+    width: 100%;
+    height: 715px;
+    position: fixed;
+    z-index: -100;
+}
+
+/* CONTENT */
+
+.content {
+    padding: 16px;
+    margin-top: 600px;
+    background-color: white;
+}
+
+.topcategories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.topcategory {
+    margin: 1em 0;
+    height: 200px;
+    width: 150px;
+    border: 0.5px solid rgb(205, 205, 205);
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s;
+}
+
+.topcategory:hover {
+    scale: 1.02;
+    border: 0.5px solid rgb(160, 160, 160);
+    box-shadow: 0 0 5px rgb(55, 55, 55);
+
+}
+
+.topcategory-heading {
+    margin: 0;
+    padding: 5px;
+}
+
+.topcategory-pic {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mobiles-tablets {
+    background-image: url("https://m.media-amazon.com/images/I/71C68VejLgL._SY879_.jpg");
+}
+
+.laptops-computers {
+    background-image: url("https://m.media-amazon.com/images/I/61kYrhv-t-L._SX679_.jpg");
+}
+
+.audio-devices {
+    background-image: url("https://m.media-amazon.com/images/I/51xxA+6E+xL._SX466_.jpg");
+}
+
+.wearables {
+    background-image: url("https://m.media-amazon.com/images/I/61YUxOoXWAL._SX679_.jpg");
+}
+
+.kitchen-appliances {
+    background-image: url("https://m.media-amazon.com/images/I/61VulHBlOkL._SX679_.jpg");
+}
+
+.home-appliances {
+    background-image: url("https://m.media-amazon.com/images/I/41TuyxwZ9mL._SX679_.jpg");
+}
+
+.banner2 {
+    background-image: url("/images/banner.jpg");
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gifs {
+    margin: 2em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gif {
+    height: 300px;
+    width: 300px;
+    transition: 0.25s;
+}
+
+.gif:hover {
+    cursor: pointer;
+    scale: 0.98;
+}
+
+
+.brand {
+    margin: 1em 0;
+    height: 100px;
+    width: 100px;
+    border: 0.5px solid rgb(205, 205, 205);
+    border-radius: 50%;
+    text-align: center;
+    transition: .2s;
+}
+
+.brand:hover {
+    scale: 1.08;
+    border: 0.5px solid rgb(160, 160, 160);
+    box-shadow: 0 0 5px rgb(55, 55, 55);
+
+}
+
+.brand-pic {
+    transition: 0.2s;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mi {
+    background-image: url("https://www.citypng.com/public/uploads/preview/-11597186552glxhsxjcli.png");
+}
+
+.apple {
+    background-image: url("https://img.freepik.com/free-icon/mac-os_318-10374.jpg?w=740&t=st=1691055959~exp=1691056559~hmac=47405091afff6c4c8226ecf7b5a1a20222e98baa5f38eb850859c5f8c6ffbce5");
+}
+
+.lenovo {
+    background-image: url("https://www.pngmart.com/files/4/Lenovo-Logo-Transparent-PNG.png");
+}
+
+.boat {
+    background-image: url("https://marksmendaily.com/wp-content/uploads/2023/02/Abhishek-MPL-3.png");
+}
+
+.samsung {
+    background-image: url("https://cdn.freebiesupply.com/logos/large/2x/samsung-logo-png-transparent.png");
+}
+
+.whirpool {
+    background-image: url("https://1c938699858ebac8919f-943ad49fa0bf56534d6539e94192646e.ssl.cf5.rackcdn.com/logos/WhirlpoolBRAND-notR-2017Logo_2C_B.png");
+}
+
+.lg {
+    background-image: url("https://1000logos.net/wp-content/uploads/2017/03/emblem-LG-768x434.jpg");
+}
+
+.voltas {
+    background-image: url("https://www.voltas.com/cdn/shop/files/Voltas-Voltas-beko-composit-logo_30Jul2021_80x@2x.jpg?v=1627630212");
+}
+
+.best-deals {
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    gap: 20px;
+}
+
+.product {
+    margin: 1em 0;
+    height: 450px;
+    width: 350px;
+    border: 0.5px solid rgb(205, 205, 205);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.product-pic {
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.product-content {
+    padding-top: 10px;
+}
+
+.product-heading {
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.specs {
+    font-size: smaller;
+}
+
+li {
+    margin:1rem 0;
+}
+
+.deal-pic1 {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/b/r/f/-original-imaghkvuhzwge3za.jpeg?q=70");
+}
+
+.deal-pic2 {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/a/x/6/-original-imagqhyfh7ykyjby.jpeg?q=70");
+}
+
+.deal-pic3 {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/computer/z/v/f/ideapad-slim-5-laptop-lenovo-original-imaghztkffcgqfn3.jpeg?q=70");
+}
+
+.deal-pic4 {
+    background-image: url("https://m.media-amazon.com/images/I/61kFL7ywsZS._SX466_.jpg");
+}
+
+.deal-pic5 {
+    background-image: url("https://m.media-amazon.com/images/I/71wkKP7Hj2L._SX679_.jpg");
+}
+
+.deal-pic6 {
+    background-image: url("https://m.media-amazon.com/images/I/717Kju6Tu2L._SX679_.jpg");
+}
+
+.product-btns {
+    display: flex;  
+    justify-content: space-between;
+}
+
+.product-btns button {
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.buy-now {
+    background-color: rgb(255, 230, 0);
+}
+
+.buy-now:hover {
+    background-color: rgb(247, 222, 0);
+}
+
+.add-to-cart {
+    background-color: rgb(255, 170, 0);
+}
+
+.add-to-cart:hover {
+    background-color: rgb(247, 162, 0);
+}
+
+hr {
+    width: 90%;
+    border: none;
+    height: 0.1px;
+    background-color: rgb(198, 198, 198);
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.first {
+    width: 25%;
+}
+
+.accepted-payments {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.payment-method {
+    height: 40px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0.1px solid rgb(202, 202, 202);
+    border-radius: 5px;
+    margin: 4px;
+}
+
+.stripe {
+    background-image: url("https://uploads-ssl.webflow.com/63e857eaeaf853471d5335ff/63eb1ce8816711ebecac46d8_stripe.png");
+}
+
+.visa {
+    background-image: url("https://uploads-ssl.webflow.com/63e857eaeaf853471d5335ff/63eb1ce82d440b7ab84a993f_visa.png");
+}
+
+.mastercard {
+    background-image: url("https://uploads-ssl.webflow.com/63e857eaeaf853471d5335ff/63eb1ce8f032504012a5896b_Mastercard.png");
+}
+
+.paypal {
+    background-image: url("https://uploads-ssl.webflow.com/63e857eaeaf853471d5335ff/63eb1ce7c4510cf9a55828a0_PayPal.png");
+}
+
+.applepay {
+    background-image: url("https://uploads-ssl.webflow.com/63e857eaeaf853471d5335ff/63e8c4e4707380264b25e680_ApplePay.png");
+}
+
+.gpay {
+    background-image: url("https://uploads-ssl.webflow.com/63e857eaeaf853471d5335ff/63eb1f55dc68c5ee83d0cbf8_GooglePay.png");
+}
+
+.amazonpay {
+    background-image: url("https://uploads-ssl.webflow.com/63e857eaeaf853471d5335ff/63e8c4e48b497e6ce846b7ff_Amazon.png");
+}
+
+.klarna {
+    background-image: url("https://uploads-ssl.webflow.com/63e857eaeaf853471d5335ff/63eb1f054e419e42aca4a9a2_Klarna.png");
+}
+
+.footer-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-section li a:hover {
+    color: rgb(255, 68, 0);
+}
