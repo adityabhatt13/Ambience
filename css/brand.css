@@ -1,0 +1,39 @@
+.mi-banner {
+  background-image: url("https://www.pbtech.co.nz/fileslib/_20230628134559_xiaomi-brand-header-desktop.webp");
+  background-position: center;
+  background-size: 100%;
+  height: 310px;
+}
+
+.tabs {
+  overflow: hidden;
+  display: flex;
+  justify-content: left;
+}
+
+.tabs button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  border: none;
+  font-size: 18px;
+}
+
+.tabs button.active {
+  text-decoration: underline rgb(135, 159, 255) 3px;
+}
+
+.tabs button:hover {
+  color: rgb(73, 73, 73);
+}
+
+.tab-content {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+  margin: 0 2em;
+}
+  

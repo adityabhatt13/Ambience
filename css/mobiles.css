@@ -6,18 +6,10 @@
   height: 750px;
 }
 
-.video2 {
-  width: 100%;
-  height: 750px;
-}
-
-.mobiles-content {
+.content {
   margin-top: 600px;
   background-color: white;
-}
-
-.mobiles {
-  margin: 0 2em;
+  padding: 0 2em;
 }
 
 .products {
@@ -26,15 +18,27 @@
   justify-content: space-around;
 }
 
+.ytBtn {
+  background-color: white;
+  border: none;
+  width: min-content;
+  color: red;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.ytBtn:active {
+  scale: 0.85;
+}
+
 iframe {
   height: 100%;
   width: 100%;
-  opacity: 0;
-  transition: 0.3s;
+  display: none;
 }
 
-iframe:hover {
-  opacity: 1;
+#ytvideo {
+  transition: display 3s;
 }
 
 .product-pic1 {
@@ -111,8 +115,7 @@ iframe:hover {
 
 
 .product-pic18 {
-  background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/t/u/m/-original-imaggsuehy3nyj3b.jpeg?q=70");
-  background-size: 80%;
+  background-image: url("https://m.media-amazon.com/images/I/51pXjbrdzjL._SX300_SY300_QL70_FMwebp_.jpg");
 }
 
 .banner {

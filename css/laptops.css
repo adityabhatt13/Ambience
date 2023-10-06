@@ -1,0 +1,62 @@
+.video1 {
+    position: fixed;
+    top: 0;
+    z-index: -20;
+    width: 100%;
+    height: 750px;
+}
+
+.product-pic1 {
+background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/computer/2/v/v/-original-imagfdeqter4sj2j.jpeg?q=70");
+}
+
+.product-pic2 {
+background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/computer/d/h/q/-original-imagrmhu8wvhykb7.jpeg?q=70");
+}
+
+.product-pic3 {
+background-image: url("https://rukminim2.flixcart.com/image/832/832/khdqnbk0/computer/f/y/t/apple-original-imafxfyqydgvrkzv.jpeg?q=70");
+}
+
+.product-pic4 {
+background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/computer/x/a/v/-original-imagsnzbnc2vfvwg.jpeg?q=70");
+}
+
+.product-pic5 {
+background-image: url("https://rukminim2.flixcart.com/image/832/832/koixwnk0/computer/9/p/x/na-thin-and-light-laptop-mi-original-imag2ygskfu3zew5.jpeg?q=70");
+}
+
+.product-pic6 {
+background-size: 80%;
+background-image: url("https://m.media-amazon.com/images/I/51hEf-tkHrL._SX679_.jpg");
+}
+
+.product-pic7 {
+    background-size: 60%;
+background-image: url("https://m.media-amazon.com/images/I/518BYF8LHRL._SX679_.jpg");
+}
+
+.product-pic8 {
+    background-size: 80%;
+background-image: url("https://m.media-amazon.com/images/I/71odFxm6AQL._SX679_.jpg");
+}
+
+.product-pic9 {
+    background-size: 70%;
+background-image: url("https://m.media-amazon.com/images/I/71HD+TwPD8L._SX679_.jpg");
+}
+
+.product-pic10 {
+    background-size: 65%;
+background-image: url("https://m.media-amazon.com/images/I/61WNxdAeAoL._SX679_.jpg");
+}
+
+.product-pic11 {
+    background-size: 75%;
+background-image: url("https://m.media-amazon.com/images/I/81KoSSAwH2L._SX679_.jpg");
+}
+
+.product-pic12 {
+background-size: 55%;
+background-image: url("https://m.media-amazon.com/images/I/71ef1yicMJL._SX679_.jpg");
+}
