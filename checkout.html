@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/images/logo2.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/checkout.css">
+  <meta charset="UTF-8">
+  <script src="https://kit.fontawesome.com/14f6e31829.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ambience</title>
+</head>
+
+<body>
+  <!-- header -->
+  <nav>
+    <span class="header">
+      <a href="index.html"><span style="color: rgb(85, 98, 215);">A</span>mbience</a>
+    </span>
+    <div class="nav-btns">
+      <a href="categories.html">Categories</a>
+      <a href="contactus.html">Contact us</a>
+      <a href="aboutus.html">About us</a>
+      <div class="search">
+        <input type="text" class="searchbar" placeholder="Search...">
+        <input type="submit" class="submit-btn" value="Search">
+      </div>
+      <a href="signup.html" class="signup"><i class="far fa-user"></i> <span class="account">Account</span></a>
+      <a href="shopping-cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+    </div>
+  </nav>
+  <div class="checkout-heading">
+    <h1>Checkout</h1>
+  </div>
+
+  <div class="checkout-main">
+    <div class="section1">
+      <div type="button" class="collapse" id="delivery" onclick="openColl('delivery')">Select your Delivery address<span
+          id="deliverytick" style="display: none;">✅</span><span id="deliveryselected"></span></div>
+      <div class="collapseContent" id="deliveryContent">
+        <p id="your-addresses">Your Addresses</p>
+        <div id="new-addresses">
+          <div class="delivery-add" onclick="selectRadio(this)">
+            <input type="radio" class="deliveryAdd" id="radio1" name="DeliveryRadio" value="delivery-address">
+            <span class="bolder">Aditya </span>H.No-3094, Sector-24D <span class="uppercase">CHANDIGARH</span> 160023
+            India
+          </div>
+          <div class="delivery-add" onclick="selectRadio(this)">
+            <input type="radio" class="deliveryAdd" id="radio2" name="DeliveryRadio" value="delivery-address">
+            <span class="bolder">Aditya Bhatt </span>H.No-338, Sector-17 <span class="uppercase">CHANDIGARH</span>
+            160023 India
+          </div>
+        </div>
+        <br>
+        <button id="useThis" onclick="useThisAdd()">Use this Address</button>
+        <button id="addAddress" onclick="openPopup()">Add new address</button>
+        <button id="changeAddress" onclick="changeAdd()" style="display: none;">Change Address</button>
+      </div>
+
+      <!-- POPUP -->
+      <div class="popup">
+        <div class="add-address" onclick="closePopup()"></div>
+        <form class="popup-content" id="addressForm">
+          <div class="close-btn" onclick="closePopup()">❌</div>
+          <label for="name">Full Name</label>
+          <input type="text" id="name" pattern="[A-Za-z ]+" placeholder="Enter your Name" required>
+          <label for="mobile">Mobile Number</label>
+          <input type="text" id="mobile" pattern="[6-9][0-9]{9}" placeholder="Enter your Mobile Number" required>
+          <label for="address">Address</label>
+          <input type="text" id="address" placeholder="Enter your Address" required>
+          <label for="pincode">Pincode</label>
+          <input type="text" id="pincode" placeholder="Enter your Pincode" required>
+          <label for="city">Town/City</label>
+          <input type="text" id="city" placeholder="Enter your Town/City" required>
+          <label for="state">State</label>
+          <select name="states" id="state" required>
+            <option value="none" selected disabled hidden>Choose a State</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chandigarh">Chandigarh</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+            <option value="Daman and Diu">Daman and Diu</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Lakshadweep">Lakshadweep</option>
+            <option value="Puducherry">Puducherry</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+          </select>
+          <input type="submit" value="Add Address" class="submit" id="submitBtn"></input>
+        </form>
+      </div>
+
+      <div type="button" class="collapse" id="paymentOps" onclick="openColl('paymentOps')">Payment Method<span
+          id="paymentOpstick" style="display: none;">✅</span><span id="paymentOpsselected"></span></div>
+      <div class="collapseContent" id="paymentOpsContent">
+        <div class="paymentOptions">
+          <div class="paymentOp" onclick="selectRadio2(this);showInput('1')">
+            <input type="radio" class="paymentOpRadio" id="paymentRadio1" name="PaymentRadio" value="Credit/Debit Card">
+            Credit or Debit card
+            <div class="accepted-payments">
+              <div class="payment-method visa"></div>
+              <div class="payment-method mastercard"></div>
+              <div class="payment-method paypal"></div>
+              <div class="payment-method stripe"></div>
+              <div class="payment-method klarna"></div>
+            </div>
+            <form id="payment-form" style="display: none;">
+              <div class="paymentParts">
+                <div class="part">
+                  <label for="card-number">Card Number:</label>
+                  <input type="text" id="card-number" placeholder="1234 5678 9012 3456" required>
+
+                  <label for="expiration-date">Expiration Date:</label>
+                  <input type="text" id="expiration-date" placeholder="MM/YY" required>
+                </div>
+                <div class="part">
+                  <label for="cvv">CVV:</label>
+                  <input type="password" id="cvv" placeholder="123" required>
+
+                  <label for="card-holder">Cardholder Name:</label>
+                  <input type="text" id="card-holder" required>
+                </div>
+              </div>
+              <button type="submit">Submit</button>
+            </form>
+            </label>
+          </div>
+
+          <div class="paymentOp" onclick="selectRadio2(this);showInput('2')">
+            <input type="radio" class="paymentOpRadio" id="paymentRadio2" name="PaymentRadio" value="Netbanking">
+            Netbanking
+            <select name="banks" id="banks" style="display: none;">
+              <option selected="selected" value="0">--Select --</option>
+              <option value="1">ALLAHABAD BANK </option>
+              <option value="2">ANDHRA BANK</option>
+              <option value="3">AXIS BANK</option>
+              <option value="29">STATE BANK OF INDIA</option>
+              <option value="4">BANK OF BARODA</option>
+              <option value="29">UCO BANK</option>
+              <option value="29">UNION BANK OF INDIA</option>
+              <option value="5">BANK OF INDIA</option>
+              <option value="20">BANDHAN BANK LIMITED</option>
+              <option value="7">CANARA BANK</option>
+              <option value="32">GRAMIN VIKASH BANK</option>
+              <option value="8">CORPORATION BANK</option>
+              <option value="9">INDIAN BANK</option>
+              <option value="10">INDIAN OVERSEAS BANK</option>
+              <option value="11">ORIENTAL BANK OF COMMERCE</option>
+              <option value="12">PUNJAB AND SIND BANK</option>
+              <option value="13">PUNJAB NATIONAL BANK</option>
+              <option value="14">RESERVE BANK OF INDIA</option>
+              <option value="15">SOUTH INDIAN BANK</option>
+              <option value="16">UNITED BANK OF INDIA</option>
+              <option value="17">CENTRAL BANK OF INDIA</option>
+              <option value="18">VIJAYA BANK</option>
+              <option value="19">DENA BANK</option>
+              <option value="21">BHARATIYA MAHILA BANK LIMITED</option>
+              <option value="22">FEDERAL BANK LTD </option>
+              <option value="23">HDFC BANK LTD</option>
+              <option value="24">ICICI BANK LTD</option>
+              <option value="25">IDBI BANK LTD</option>
+              <option value="66">PAYTM BANK</option>
+              <option value="29">FINO PAYMENT BANK</option>
+              <option value="26">INDUSIND BANK LTD</option>
+              <option value="27">KARNATAKA BANK LTD</option>
+              <option value="28">KOTAK MAHINDRA BANK</option>
+              <option value="30">YES BANK LTD</option>
+              <option value="31">SYNDICATE BANK</option>
+              <option value="5">BANK OF INDIA</option>
+              <option value="6">BANK OF MAHARASHTRA</option>
+            </select>
+            </label>
+          </div>
+          <div class="paymentOp" onclick="selectRadio2(this);showInput('3')">
+            <input type="radio" class="paymentOpRadio" id="paymentRadio3" name="PaymentRadio" value="UPI">
+            UPI
+            <input id="upi" type="text" placeholder="Enter UPI ID" required style="display: none;">
+            <button id="upiBtn" class="upiVerify" type="submit" style="display: none;">Verify</button>
+          </div>
+          <div class="paymentOp" onclick="selectRadio2(this);showInput('4')">
+            <input type="radio" class="paymentOpRadio" id="paymentRadio4" name="PaymentRadio" value="Pay On Delivery">
+            Pay on Delivery
+          </div>
+        </div>
+        <button id="usePaymentBtn" onclick="useThisPay()">Use this Payment method</button>
+      </div>
+    </div>
+    <div class="section2">
+      <div class="container">
+        <button id="continueBtn" class="continue"><a href="confirmation.html">Continue</a></button>
+        <h2>Order Summary</h2>
+        <div class="summaryBox">
+          <div class="summary-items">
+            Items : <br>
+            Delivery :
+          </div>
+          <div class="summary-costs">
+            ₹22000 <br>
+            ₹40
+          </div>
+        </div>
+        <hr>
+        <div class="totalBox">
+          <div class="total-items">
+            Order Total : 
+          </div>
+          <div class="total-costs">
+            ₹22040 
+          </div>
+        </div>
+        <hr>
+        
+      </div>
+    </div>
+  </div>
+
+
+</body>
+<script src="js/checkout.js"></script>
+
+</html>

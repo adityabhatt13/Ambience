@@ -1,0 +1,96 @@
+.apple-video {
+    
+}
+
+.mobiles .product-pic1 {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/m/h/c/-original-imagtc3h9h6kpbkc.jpeg?q=70");
+}  
+
+.mobiles .product-pic2 {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/6/x/j/-original-imaghxejqvpwfqh2.jpeg?q=70"); 
+}
+
+.mobiles .product-pic3 {
+background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/z/4/r/-original-imagtc4g22rcatjg.jpeg?q=70");
+}  
+
+.mobiles .product-pic4 {
+background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/l/8/r/-original-imaghxemnnnkd8bg.jpeg?q=70");
+}  
+
+.mobiles .product-pic5 {
+background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/1/i/x/-original-imagtc6fhhtqjnr9.jpeg?q=70");
+}
+
+.mobiles .product-pic6 {
+background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70");
+}
+
+.laptops .product-pic1 {
+    background-size: 60%;
+background-image: url("https://www.apple.com/v/macbook-air/p/images/overview/compare/compare_mba_m1__dsgh2hoxlkae_large_2x.png");
+}
+
+.laptops .product-pic2 {
+    background-size: 60%;
+    background-image: url("https://www.apple.com/v/macbook-air/p/images/overview/compare/compare_mba_13__fkpooaz0g1ay_large_2x.png");
+}
+
+.laptops .product-pic3 {
+    background-size: 65%;
+background-image: url("https://www.apple.com/v/macbook-air/p/images/overview/compare/compare_mba_15__fcvfhj9b1uy6_large_2x.png");
+}
+
+.laptops .product-pic4 {
+    background-size: 62%;
+background-image: url("https://www.apple.com/v/macbook-pro-13/p/images/overview/compare/compare_mbp_13__givmvd62t5ua_large_2x.png");
+}
+
+.laptops .product-pic5 {
+background-size: 60%;
+background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp14-spacegray-select-202301?wid=4000&hei=2422&fmt=jpeg&qlt=90&.v=1671304673229");
+}
+
+.laptops .product-pic6 {
+background-size: 62%;
+background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp16-silver-select-202301?wid=4000&hei=2444&fmt=jpeg&qlt=90&.v=1671304673790");
+}
+
+.headphones .product-pic1 {
+background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MV7N2?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1551489688005");
+}
+
+.headphones .product-pic2 {
+background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MME73?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1632861342000");
+}
+
+.headphones .product-pic3 {
+background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTJV3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1694014871985");
+}
+
+.smartwatches .product-pic1 {
+background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT3Q3ref_VW_34FR+watch-case-44-aluminum-silver-nc-se_VW_34FR+watch-face-44-aluminum-silver-se_VW_34FR?wid=750&hei=712&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1694507496485");
+}
+
+.smartwatches .product-pic2 {
+background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT3Q3ref_VW_34FR+watch-case-45-aluminum-silver-nc-s9_VW_34FR+watch-face-45-aluminum-silver-s9_VW_34FR_WF_CO_GEO_IN?wid=750&hei=712&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1694507905569");
+}
+
+.smartwatches .product-pic3 {
+background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT5J3ref_VW_34FR+watch-49-titanium-ultra2_VW_34FR+watch-face-49-alpine-ultra2_VW_34FR_GEO_IN?wid=750&hei=712&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1694507270905");
+}
+
+
+.appliances .product-pic1 {
+    background-size: 60%;
+background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-tv-4k-hero-select-202210?wid=1076&hei=1070&fmt=jpeg&qlt=90&.v=1664896361408");
+}
+
+.appliances .product-pic2 {
+    background-size: 60%;
+background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/homepod-select-202210?wid=1080&hei=1080&fmt=jpeg&qlt=90&.v=1670557209908");
+}
+
+.appliances .product-pic3 {
+background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/homepod-mini-select-white-202110_FV1?wid=1868&hei=880&fmt=jpeg&qlt=90&.v=1633086025000");
+}

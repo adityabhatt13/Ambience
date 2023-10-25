@@ -1,34 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/images/logo2.png">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/14f6e31829.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/signup.css">
-    <title>Tech Junction Registration</title>
+    <title>Ambience Registration</title>
 </head>
 <body>
     <nav>
         <span class="header">
-        Tech Junction
+            <a href="index.html"><span style="color: rgb(85, 98, 215);">A</span>mbience</a>
         </span>
-        <a href="index.html">Home</a>
-        <div class="search">
-        <input type="text" class="searchbar" placeholder="Search...">
-        <input type="submit" class="submit-btn" value="Search">
-        </div>
-        <a href="signup.html" class="signup"><i class="far fa-user"></i> <span class="account active-now">Account</span></a>
+        <div class="nav-btns">
+            <a href="signup.html" class="signup"><i class="far fa-user"></i> <span class="account active-now">Account</span></a>
+          </div>
     </nav>
     <div class="signup-container">
         <div class="signup-pic"></div>
         <form action="" method="post">
             <h2>Create Account</h2>
             <label for="name">Your name</label>
-            <input type="text" id="name" name="name" placeholder="First and last name " required>
+            <input type="text" id="name" name="name" pattern="[A-Za-z ]+" placeholder="First and last name " required>
             <br>
     
             <label for="number">Mobile number</label>
-            <input type="text" id="number" name="number" placeholder="Mobile Number" pattern="[1-9]{1}[0-9]{9}" required>
+            <input type="text" id="number" name="number" pattern="[6-9][0-9]{9}" placeholder="Mobile Number" required>
             <br>
     
             <label for="email">Email (optional)</label>

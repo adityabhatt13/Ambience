@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple - Shop by Brand</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/mobiles.css">
+    <link rel="stylesheet" href="/css/brand.css">
+    <link rel="stylesheet" href="/css/apple.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo2.png">
+    <script src="https://kit.fontawesome.com/14f6e31829.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <span class="header">
+            <a href="index.html"><span style="color: rgb(85, 98, 215);">A</span>mbience</a>
+        </span>
+        <div class="nav-btns">
+            <a href="categories.html">Categories</a>
+            <a href="contactus.html">Contact us</a>
+            <a href="aboutus.html">About us</a>
+            <div class="search">
+            <input type="text" class="searchbar" placeholder="Search...">
+            <input type="submit" class="submit-btn" value="Search">
+            </div>
+            <a href="signup.html" class="signup"><i class="far fa-user"></i> <span class="account">Account</span></a>
+            <a href="shopping-cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </nav>
+
+    <video width="100%" autoplay muted loop class="apple-video">
+        <source src="https://www.apple.com/105/media/us/iphone-15/2023/434c1226-dcdc-47be-ae28-6cb67a3a5a7c/anim/hero/large_2x.mp4" type="video/mp4">
+    </video>
+
+    <div class="tabs">
+        <button class="tab" onclick="openTab(event, 'mobiles')" id="defaultOpen">Mobiles</button>
+        <button class="tab" onclick="openTab(event, 'laptops')">Laptops</button>
+        <button class="tab" onclick="openTab(event, 'headphones')">Headphones</button>
+        <button class="tab" onclick="openTab(event, 'smartwatches')">Smartwatches</button>
+        <button class="tab" onclick="openTab(event, 'appliances')">Appliances</button>
+    </div>
+
+    <div id="mobiles" class="tab-content">
+        <div class="mobiles">
+            <div class="products">
+                    <div class="product">
+                        <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                                class="youtube fa-brands fa-youtube"></i></button>
+                        <div class="product-pic product-pic1">
+                            <iframe class="ytVideo" src="https://www.youtube.com/embed/cVpcl7KGly0?mute=1"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="product-content">
+                            <div class="product-heading">
+                                <div class="product-name">Apple iPhone 15 Pro Max</div>
+                                <div class="price">₹1,79,900</div>
+                            </div>
+                            <div class="specs">
+                                <ul>
+                                    <li>512 GB ROM</li>
+                                    <li>17.02 cm (6.7 inch) Super Retina XDR Display</li>
+                                    <li>48MP + 12MP + 12MP | 12MP Front Camera</li>
+                                    <li>A17 Pro Chip, 6 Core Processor Processor</li>
+                                    <li>Titanium body</li>
+                                </ul>
+                            </div>
+                            <div class="product-btns">
+                                <button class="buy-now">Buy Now</button>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic2">
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/T2vTffqUJ3Q?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">APPLE iPhone 14 Pro Max</div>
+                            <div class="price">₹1,08,999</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>128 GB ROM</li>
+                                <li>17.02 cm (6.7 inch) Super Retina XDR Display</li>
+                                <li>48MP + 12MP + 12MP | 12MP Front Camera</li>
+                                <li>A16 Bionic Chip, 6 Core Processor Processor</li>
+                                <li>Superfast 5G</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic3">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/cBpGq-vDr2Y?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">APPLE iPhone 15 Pro</div>
+                            <div class="price">₹1,84,900</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>1 TB ROM</li>
+                                <li>15.49 cm (6.1 inch) Super Retina XDR Display</li>
+                                <li>48MP + 12MP + 12MP | 12MP Front Camera</li>
+                                <li>A17 Pro Chip, 6 Core Processor Processor</li>
+                                <li>Titanium body</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic4">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/T2vTffqUJ3Q?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">APPLE iPhone 14 Pro</div>
+                            <div class="price">₹1,03,999</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>128 GB ROM</li>
+                                <li>15.49 cm (6.1 inch) Super Retina XDR Display</li>
+                                <li>48MP + 12MP + 12MP | 12MP Front Camera</li>
+                                <li>A16 Bionic Chip, 6 Core Processor Processor</li>
+                                <li>Superfast 5G</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic5">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/s1XVb4mdELc?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">APPLE iPhone 15 Plus</div>
+                            <div class="price">₹1,19,900</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>512 GB ROM</li>
+                                <li>17.02 cm (6.7 inch) Super Retina XDR Display</li>
+                                <li>48MP + 12MP | 12MP Front Camera</li>
+                                <li>A16 Bionic Chip, 6 Core Processor Processor</li>
+                                <li>USB-C charging</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic6">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/s1XVb4mdELc?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">APPLE iPhone 15</div>
+                            <div class="price">₹79,900</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>128 GB ROM</li>
+                                <li>15.49 cm (6.1 inch) Super Retina XDR Display</li>
+                                <li>48MP + 12MP | 12MP Front Camera</li>
+                                <li>A16 Bionic Chip, 6 Core Processor Processor</li>
+                                <li>USB-C Charging</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="laptops" class="tab-content">
+        <div class="laptops">
+            <div class="products">
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic1">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/_i_XWx05FTw?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">APPLE MacBook Air 13″ M1</div>
+                            <div class="price">₹99,900</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>33.74 cm (13.3″) Retina display</li>
+                                <li>Apple M1 chip</li>
+                                <li>8-core CPU 7-core GPU</li>
+                                <li>Up to 16GB unified memory</li>
+                                <li>1.29 kg (2.8 pounds) Weight</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic2">
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/HeMIZC2rkMo?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <a href="apple-macbook.html">
+                        <div class="product-content">
+                            <div class="product-heading">
+                                <div class="product-name">APPLE MacBook Air 13″ M2</div>
+                                <div class="price">₹91,990</div>
+                            </div>
+                            <div class="specs">
+                                <ul>
+                                    <li>34.46 cm (13.6″) Liquid Retina display</li>
+                                    <li>Apple M2 chip</li>
+                                    <li>8-core CPU 10-core GPU</li>
+                                    <li>Up to 24GB unified memory</li>
+                                    <li>1.24 kg (2.7 pounds) Weight</li>
+                                </ul>
+                            </div>
+                            <div class="product-btns">
+                                <button class="buy-now">Buy Now</button>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic3">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/1TCuf_Qcfv8?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">APPLE MacBook Air 15″ M2</div>
+                            <div class="price">₹1,34,900</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>38.91 cm (15.3″) Liquid Retina display</li>
+                                <li>Apple M2 chip</li>
+                                <li>8-core CPU 10-core GPU</li>
+                                <li>Up to 24GB unified memory</li>
+                                <li>1.51 kg (3.3 pounds) Weight</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic4">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/pSdKnNj7ozk?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">APPLE MacBook Pro 13”</div>
+                            <div class="price">₹1,29,900</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>33.74 cm (13.3”) Retina display</li>
+                                <li>Apple M2 chip</li>
+                                <li>8-core CPU 10-core GPU</li>
+                                <li>Up to 24GB unified memory</li>
+                                <li>1.38 kg Weight</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic5">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/tmGDx9hVWwo?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">APPLE MacBook Pro 14”</div>
+                            <div class="price">₹1,99,900</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>35.97 cm (14.2″) Liquid Retina XDR display</li>
+                                <li>Apple M2 Pro chip or Apple M2 Max chip</li>
+                                <li>Upto 12-core CPU & Up to 38-core GPU</li>
+                                <li>Up to 96GB unified memory</li>
+                                <li>1.60 kg Weight</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic6">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/PTunTseQWZw?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">APPLE MacBook Pro 16”</div>
+                            <div class="price">₹2,49,900</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>41.05 cm (16.2″) Liquid Retina XDR display</li>
+                                <li>Apple M2 Pro chip or Apple M2 Max chip</li>
+                                <li>12-core CPU Up to 38-core GPU</li>
+                                <li>Up to 96GB unified memory</li>
+                                <li>2.15 kg Weight</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="headphones" class="tab-content">
+        <div class="headphones">
+            <div class="products">
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic1">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/WAXqB0CIXrU?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">AirPods (2nd generation)</div>
+                            <div class="price">₹12,900</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>Lightning Charging Case</li>
+                                <li>Up to 5 hours of listening time with a single charge</li>
+                                <li>With Mic:Yes</li>
+                                <li>Automatically on, automatically connected</li>
+                                <li>Quick access to Siri by saying Hey Siri</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic2">
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/LcI6F_GPwfE?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">AirPods (3rd generation)</div>
+                            <div class="price">₹19,900</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>Personalised Spatial Audio with dynamic tracking</li>
+                                <li>Sweat and water resistant</li>
+                                <li>Lightning Charging Case or MagSafe Charging Case</li>
+                                <li>Up to 6 hours of listening time with a single charge</li>
+                                <li>Adaptive EQ automatically tunes music to your ears</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic3">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/f3DfJxvkN-8?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">AirPods Pro (2nd generation)</div>
+                            <div class="price">₹24900</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>Adaptive Audio</li>
+                                <li>Active Noise Cancellation and Transparency mode</li>
+                                <li>Conversation Awareness</li>
+                                <li>Personalised Spatial Audio with dynamic tracking</li>
+                                <li>Dust-, sweat- and water-resistant AirPods</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="smartwatches" class="tab-content">
+        <div class="smartwatches">
+            <div class="products">
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic1">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/HkdDcTfUQck?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Apple Watch SE</div>
+                            <div class="price">₹29,900</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>44 mm or 40 mm aluminium case size</li>
+                                <li>Retina display Up to 1,000 nits</li>
+                                <li>S8 SiP, Siri, Find iPhone</li>
+                                <li>High and low heart rate notifications</li>
+                                <li>Up to 18 hours, Low Power Mode</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic2">
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/oNCs4C2SMjo?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Apple Watch Series 9</div>
+                            <div class="price">₹41,900</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>45 mm or 41 mm aluminium or stainless steel case</li>
+                                <li>Always-On Retina display Up to 2,000 nits</li>
+                                <li>S9 SiP, Double tap gesture, Faster on-device Siri</li>
+                                <li>Blood Oxygen, ECG app</li>
+                                <li>Up to 18 hours, Fast charging</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic3">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/oNCs4C2SMjo?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Apple Watch Ultra 2</div>
+                            <div class="price">₹89,900</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>49 mm titanium case size</li>
+                                <li>Always-On Retina display Up to 3,000 nits</li>
+                                <li>S9 SiP, Double tap gesture, Faster on-device Siri</li>
+                                <li>Blood Oxygen, ECG app</li>
+                                <li>Up to 36 hours</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="appliances" class="tab-content">
+        <div class="appliances">
+            <div class="products">
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic1">
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/gZohQzadl_c?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">APPLE TV 4K</div>
+                            <div class="price">₹14,900</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>Functions: Video Streaming</li>
+                                <li>Ideal For: Televisions</li>
+                                <li>Connection Type: HDMI</li>
+                                <li>128GB Storage, 12 Months Warranty</li>
+                                <li>A15 Bionic Chip Processor</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic2">
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/gvqZCMGjh3s?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">APPLE HomePod</div>
+                            <div class="price">₹32,900</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>Immersive, high-fidelity audio</li>
+                                <li>High-excursion woofer</li>
+                                <li>Beamforming array of five tweeters</li>
+                                <li>Spatial Audio, Room sensing</li>
+                                <li>Voice recognition, Private and secure</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic3">
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/rMOGvatbJs0?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">APPLE HomePod mini</div>
+                            <div class="price">₹11,499</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>Surprising sound for its size</li>
+                                <li>Full-range driver</li>
+                                <li>Dual force-cancelling passive radiators</li>
+                                <li>Stereo pair capable footnote </li>
+                                <li>Intelligent assistant, Sound Recognition</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <footer>
+        <div class="footer-section first">
+          <span class="header"><span style="color: rgb(85, 98, 215);">A</span>mbience</span><br><br>
+          Courtesy, your friendly neighbourhood Electronics Supplier!!!
+          <h4>Accepted Payments</h4>
+          <div class="accepted-payments">
+            <div class="payment-method visa"></div>
+            <div class="payment-method mastercard"></div>
+            <div class="payment-method paypal"></div>
+            <div class="payment-method applepay"></div>
+            <div class="payment-method gpay"></div>
+            <div class="payment-method amazonpay"></div>
+            <div class="payment-method stripe"></div>
+            <div class="payment-method klarna"></div>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Categories</h3>
+          <ul class="footer-categories">
+            <li><a href="mobiles.html">Mobiles</a></li>
+            <li><a href="laptops.html">Laptops</a></li>
+            <li><a href="audio-devices.html">Audio Devices</a></li>
+            <li><a href="wearables.html">Wearables</a></li>
+            <li><a href="">Kitchen Appliances</a></li>
+            <li><a href="">Home Appliances</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Get to Know Us</h3>
+          <ul class="footer-gettoknowus">
+            <li><a href="aboutus.html">About Ambience</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">News & Blog</a></li>
+            <li><a href="">Help</a></li>
+            <li><a href="">Press Center</a></li>
+            <li><a href="">Shop by Location</a></li>
+            <li><a href="">Ambience Brands</a></li>
+            <li><a href="">Affiliate & Partners</a></li>
+            <li><a href="">Ideas and Guides</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Services</h3>
+          <ul class="footer-services">
+            <li><a href="">Gift Card</a></li>
+            <li><a href="">Mobile App</a></li>
+            <li><a href="">Shipping & Delivery</a></li>
+            <li><a href="">Order Pickup</a></li>
+            <li><a href="signup.html">Account Signup</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Help</h3>
+          <ul class="footer-help">
+            <li><a href="">Ambience Help</a></li>
+            <li><a href="">Returns</a></li>
+            <li><a href="">Track Orders</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="">Feedback</a></li>
+            <li><a href="">Security & Fraud</a></li>
+          </ul>
+        </div>
+      </footer>
+</body>
+<script src="/js/mobiles.js"></script>
+<script src="/js/brand.js"></script>
+
+</html>

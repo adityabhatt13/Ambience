@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi - Shop by Brand</title>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/mobiles.css">
     <link rel="stylesheet" href="/css/brand.css">
     <link rel="stylesheet" href="/css/mi.css">
     <script src="https://kit.fontawesome.com/14f6e31829.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="/images/logo2.png">
 </head>
+
 <body>
     <nav class="navbar">
         <span class="header">
-          Tech Junction
+            <a href="index.html"><span style="color: rgb(85, 98, 215);">A</span>mbience</a>
         </span>
-        <a href="index.html" class="active-now">Home</a>
-        <a href="categories.html">Categories</a>
-        <a href="contactus.html">Contact us</a>
-        <a href="aboutus.html">About us</a>
-        <div class="search">
-          <input type="text" class="searchbar" placeholder="Search...">
-          <input type="submit" class="submit-btn" value="Search">
+        <div class="nav-btns">
+            <a href="categories.html">Categories</a>
+            <a href="contactus.html">Contact us</a>
+            <a href="aboutus.html">About us</a>
+            <div class="search">
+            <input type="text" class="searchbar" placeholder="Search...">
+            <input type="submit" class="submit-btn" value="Search">
+            </div>
+            <a href="signup.html" class="signup"><i class="far fa-user"></i> <span class="account">Account</span></a>
+            <a href="shopping-cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
         </div>
-        <a href="signup.html" class="signup"><i class="far fa-user"></i> <span class="account">Account</span></a>
     </nav>
 
-    <div class="mi-banner"></div>
+    <div class="banner"></div>
 
     <div class="tabs">
         <button class="tab" onclick="openTab(event, 'mobiles')" id="defaultOpen">Mobiles</button>
@@ -39,392 +44,425 @@
     <div id="mobiles" class="tab-content">
         <div class="mobiles">
             <div class="products">
+                
+                    <div class="product">
+                        <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                                class="youtube fa-brands fa-youtube"></i></button>
+                        <div class="product-pic product-pic1">
+                            <iframe class="ytVideo" src="https://www.youtube.com/embed/5kQRU7TDhWY?mute=1"
+                                allowfullscreen></iframe>
+                        </div>
+                        <a href="redmi_note_12_pro.html">
+                        <div class="product-content">
+                            <div class="product-heading">
+                                <div class="product-name">Redmi Note 12 Pro 5G</div>
+                                <div class="price">₹23,999</div>
+                            </div>
+                            <div class="specs">
+                                <ul>
+                                    <li>6 GB RAM | 128 GB ROM</li>
+                                    <li>16.94 cm (6.67 inch) Full HD+ AMOLED Display</li>
+                                    <li>50MP (OIS) + 8MP + 2MP | 16MP Front Camera</li>
+                                    <li>5000 mAh Lithium Polymer Battery</li>
+                                    <li>Mediatek Dimensity 1080 Processor</li>
+                                </ul>
+                            </div>
+                            <div class="product-btns">
+                                <button class="buy-now">Buy Now</button>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
                 <div class="product">
-                <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
-                <div class="product-pic product-pic1">
-                    <iframe class="ytVideo" src="https://www.youtube.com/embed/5kQRU7TDhWY?mute=1" allowfullscreen></iframe>
-                </div>
-                <div class="product-content">
-                    <div class="product-heading">
-                    <div class="product-name">Redmi Note 12 Pro 5G</div>
-                    <div class="price">₹23,999</div>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic2">
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/QxP-iNev_LQ?mute=1"
+                            allowfullscreen></iframe>
                     </div>
-                    <div class="specs">
-                    <ul>
-                        <li>6 GB RAM | 128 GB ROM</li>
-                        <li>16.94 cm (6.67 inch) Full HD+ AMOLED Display</li>
-                        <li>50MP (OIS) + 8MP + 2MP | 16MP Front Camera</li>
-                        <li>5000 mAh Lithium Polymer Battery</li>
-                        <li>Mediatek Dimensity 1080 Processor</li>
-                    </ul>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Xiaomi 12 Pro 5G</div>
+                            <div class="price">₹46,999</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>12 GB RAM | 256 GB ROM</li>
+                                <li>17.09 cm (6.73 inch) Full HD+ Display</li>
+                                <li>50MP + 50MP + 50MP | 32MP Front Camera</li>
+                                <li>4600 mAh Lithium Polymer Battery</li>
+                                <li>Snapdragon 8 Gen 1 Processor</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
                     </div>
-                    <div class="product-btns">
-                    <button class="buy-now">Buy Now</button>
-                    <button class="add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
-                </div>
-                <div class="product">
-                <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
-                <div class="product-pic product-pic2">
-                    <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/QxP-iNev_LQ?mute=1" allowfullscreen></iframe>
-                </div>
-                <div class="product-content">
-                    <div class="product-heading">
-                    <div class="product-name">Xiaomi 12 Pro 5G</div>
-                    <div class="price">₹46,999</div>
-                    </div>
-                    <div class="specs">
-                    <ul>
-                        <li>12 GB RAM | 256 GB ROM</li>
-                        <li>17.09 cm (6.73 inch) Full HD+ Display</li>
-                        <li>50MP + 50MP + 50MP | 32MP Front Camera</li>
-                        <li>4600 mAh Lithium Polymer Battery</li>
-                        <li>Snapdragon 8 Gen 1 Processor</li>
-                    </ul>
-                    </div>
-                    <div class="product-btns">
-                    <button class="buy-now">Buy Now</button>
-                    <button class="add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
-                </div>
-                <div class="product">
-                <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
-                <div class="product-pic product-pic3">
-                    <iframe class="ytVideo" src="https://www.youtube.com/embed/aVuJRYKfYgg?mute=1" allowfullscreen></iframe>
-                </div>
-                <div class="product-content">
-                    <div class="product-heading">
-                    <div class="product-name">Mi 11X</div>
-                    <div class="price">₹21,490</div>
-                    </div>
-                    <div class="specs">
-                    <ul>
-                        <li>8 GB RAM | 128 GB ROM</li>
-                        <li>16.94 cm (6.67 inch) Full HD+ Display</li>
-                        <li>48MP + 8MP + 5MP | 20MP Front Camera</li>
-                        <li>4520 mAh Battery</li>
-                        <li>Qualcomm Snapdragon 870 Processor</li>
-                    </ul>
-                    </div>
-                    <div class="product-btns">
-                    <button class="buy-now">Buy Now</button>
-                    <button class="add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
                 </div>
                 <div class="product">
-                <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
-                <div class="product-pic product-pic4">
-                    <iframe class="ytVideo" src="https://www.youtube.com/embed/6s5Q7JG2icw?mute=1" allowfullscreen></iframe>
-                </div>
-                <div class="product-content">
-                    <div class="product-heading">
-                    <div class="product-name">Xiaomi 11i Hypercharge 5G</div>
-                    <div class="price">₹22,890</div>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic3">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/aVuJRYKfYgg?mute=1"
+                            allowfullscreen></iframe>
                     </div>
-                    <div class="specs">
-                    <ul>
-                        <li>8 GB RAM | 128 GB ROM | Expandable Upto 1 TB</li>
-                        <li>16.94 cm (6.67 inch) Full HD+ AMOLED Display</li>
-                        <li>108MP + 8MP + 2MP | 16MP Front Camera</li>
-                        <li>4500 mAh Li-Polymer Battery</li>
-                        <li>Mediatek Dimensity 920 Processor</li>
-                    </ul>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Mi 11X</div>
+                            <div class="price">₹21,490</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>8 GB RAM | 128 GB ROM</li>
+                                <li>16.94 cm (6.67 inch) Full HD+ Display</li>
+                                <li>48MP + 8MP + 5MP | 20MP Front Camera</li>
+                                <li>4520 mAh Battery</li>
+                                <li>Qualcomm Snapdragon 870 Processor</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
                     </div>
-                    <div class="product-btns">
-                    <button class="buy-now">Buy Now</button>
-                    <button class="add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
                 </div>
                 <div class="product">
-                <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
-                <div class="product-pic product-pic5">
-                    <iframe class="ytVideo" src="https://www.youtube.com/embed/TnChVbPNRDI?mute=1" allowfullscreen></iframe>
-                </div>
-                <div class="product-content">
-                    <div class="product-heading">
-                    <div class="product-name">Xiaomi 11i 5G</div>
-                    <div class="price">₹25,899</div>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic4">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/6s5Q7JG2icw?mute=1"
+                            allowfullscreen></iframe>
                     </div>
-                    <div class="specs">
-                    <ul>
-                        <li>8 GB RAM | 128 GB ROM | Expandable Upto 1 TB</li>
-                        <li>16.94 cm (6.67 inch) Full HD+ AMOLED Display</li>
-                        <li>108MP Rear Camera | 16MP Front Camera</li>
-                        <li>5160 mAh Li-Polymer Battery</li>
-                        <li>Mediatek Dimensity 920 Processor</li>
-                    </ul>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Xiaomi 11i Hypercharge 5G</div>
+                            <div class="price">₹22,890</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>8 GB RAM | 128 GB ROM | Expandable Upto 1 TB</li>
+                                <li>16.94 cm (6.67 inch) Full HD+ AMOLED Display</li>
+                                <li>108MP + 8MP + 2MP | 16MP Front Camera</li>
+                                <li>4500 mAh Li-Polymer Battery</li>
+                                <li>Mediatek Dimensity 920 Processor</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
                     </div>
-                    <div class="product-btns">
-                    <button class="buy-now">Buy Now</button>
-                    <button class="add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
                 </div>
                 <div class="product">
-                <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
-                <div class="product-pic product-pic6">
-                    <iframe class="ytVideo" src="https://www.youtube.com/embed/PdlSVHkbOP0?mute=1" allowfullscreen></iframe>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic5">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/TnChVbPNRDI?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Xiaomi 11i 5G</div>
+                            <div class="price">₹25,899</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>8 GB RAM | 128 GB ROM | Expandable Upto 1 TB</li>
+                                <li>16.94 cm (6.67 inch) Full HD+ AMOLED Display</li>
+                                <li>108MP Rear Camera | 16MP Front Camera</li>
+                                <li>5160 mAh Li-Polymer Battery</li>
+                                <li>Mediatek Dimensity 920 Processor</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="product-content">
-                    <div class="product-heading">
-                    <div class="product-name">Mi 10i</div>
-                    <div class="price">₹20,990</div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic6">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/PdlSVHkbOP0?mute=1"
+                            allowfullscreen></iframe>
                     </div>
-                    <div class="specs">
-                    <ul>
-                        <li>8 GB RAM | 128 GB ROM</li>
-                        <li>16.94 cm (6.67 inch) Full HD+ Display</li>
-                        <li>108MP + 8MP + 2MP + 2MP | 16MP Front Camera</li>
-                        <li>4820 mAh Battery</li>
-                        <li>Qualcomm® Snapdragon™ 750G Processor</li>
-                    </ul>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Mi 10i</div>
+                            <div class="price">₹20,990</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>8 GB RAM | 128 GB ROM</li>
+                                <li>16.94 cm (6.67 inch) Full HD+ Display</li>
+                                <li>108MP + 8MP + 2MP + 2MP | 16MP Front Camera</li>
+                                <li>4820 mAh Battery</li>
+                                <li>Qualcomm® Snapdragon™ 750G Processor</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
                     </div>
-                    <div class="product-btns">
-                    <button class="buy-now">Buy Now</button>
-                    <button class="add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <div id="laptops" class="tab-content">
         <div class="laptops">
             <div class="products">
                 <div class="product">
-                <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
-                <div class="product-pic product-pic1">
-                    <iframe class="ytVideo" src="https://www.youtube.com/embed/qGnOCxxfYzM?mute=1" allowfullscreen></iframe>
-                </div>
-                <div class="product-content">
-                    <div class="product-heading">
-                    <div class="product-name">Xiaomi Notebook Ultra Max</div>
-                    <div class="price">₹49,999</div>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic1">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/qGnOCxxfYzM?mute=1"
+                            allowfullscreen></iframe>
                     </div>
-                    <div class="specs">
-                    <ul>
-                        <li>11th Gen Intel Tiger Lake Core i5</li>
-                        <li>39.62 centimeters IPS 3.2K resolution (3200x2000)</li>
-                        <li>16GB DDR4 | 512GB SSD</li>
-                        <li>Windows 11 Home | Microsoft Office Home</li>
-                        <li>Intel Iris Xe graphics</li>
-                    </ul>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Xiaomi Notebook Ultra Max</div>
+                            <div class="price">₹49,999</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>11th Gen Intel Tiger Lake Core i5</li>
+                                <li>39.62 centimeters IPS 3.2K resolution (3200x2000)</li>
+                                <li>16GB DDR4 | 512GB SSD</li>
+                                <li>Windows 11 Home | Microsoft Office Home</li>
+                                <li>Intel Iris Xe graphics</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
                     </div>
-                    <div class="product-btns">
-                    <button class="buy-now">Buy Now</button>
-                    <button class="add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
                 </div>
                 <div class="product">
-                <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
-                <div class="product-pic product-pic2">
-                    <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/8pU4RF6MYE8?mute=1" allowfullscreen></iframe>
-                </div>
-                <div class="product-content">
-                    <div class="product-heading">
-                    <div class="product-name">Xiaomi Notebook Pro 120</div>
-                    <div class="price">₹62,999</div>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic2">
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/8pU4RF6MYE8?mute=1"
+                            allowfullscreen></iframe>
                     </div>
-                    <div class="specs">
-                    <ul>
-                        <li>12th Gen Intel Core i5-12450H processor</li>
-                        <li>14" IPS QHD+ resolution (2560x1600)</li>
-                        <li>16GB LPDDR5 5200 MHz | 512GB SSD</li>
-                        <li>Windows 11 Home | Microsoft Office Home</li>
-                        <li>CNC precision cut Aluminum Alloy design</li>
-                    </ul>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Xiaomi Notebook Pro 120</div>
+                            <div class="price">₹62,999</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>12th Gen Intel Core i5-12450H processor</li>
+                                <li>14" IPS QHD+ resolution (2560x1600)</li>
+                                <li>16GB LPDDR5 5200 MHz | 512GB SSD</li>
+                                <li>Windows 11 Home | Microsoft Office Home</li>
+                                <li>CNC precision cut Aluminum Alloy design</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
                     </div>
-                    <div class="product-btns">
-                    <button class="buy-now">Buy Now</button>
-                    <button class="add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
                 </div>
                 <div class="product">
-                <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
-                <div class="product-pic product-pic3">
-                    <iframe class="ytVideo" src="https://www.youtube.com/embed/o0Z0otI6fYk?mute=1" allowfullscreen></iframe>
-                </div>
-                <div class="product-content">
-                    <div class="product-heading">
-                    <div class="product-name">Xiaomi Notebook Pro</div>
-                    <div class="price">₹44,999</div>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic3">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/o0Z0otI6fYk?mute=1"
+                            allowfullscreen></iframe>
                     </div>
-                    <div class="specs">
-                    <ul>
-                        <li>11th Gen Intel Tiger Lake Core i5-11300H processor</li>
-                        <li>4.4 GHz(max) | 4 cores | 8 Threads | 8 MB Cache</li>
-                        <li>35.56 centimetres IPS QHD+ resolution (2560x1600)</li>
-                        <li>8GB DDR4 3200 MHz | 512GB PCIe NVMe M.2 SSD</li>
-                        <li>Windows 11 Home | Microsoft Office Home</li>
-                    </ul>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Xiaomi Notebook Pro</div>
+                            <div class="price">₹44,999</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>11th Gen Intel Tiger Lake Core i5-11300H processor</li>
+                                <li>4.4 GHz(max) | 4 cores | 8 Threads | 8 MB Cache</li>
+                                <li>35.56 centimetres IPS QHD+ resolution (2560x1600)</li>
+                                <li>8GB DDR4 3200 MHz | 512GB PCIe NVMe M.2 SSD</li>
+                                <li>Windows 11 Home | Microsoft Office Home</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
                     </div>
-                    <div class="product-btns">
-                    <button class="buy-now">Buy Now</button>
-                    <button class="add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
                 </div>
                 <div class="product">
-                <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
-                <div class="product-pic product-pic4">
-                    <iframe class="ytVideo" src="https://www.youtube.com/embed/bpMBqLLVitY?mute=1" allowfullscreen></iframe>
-                </div>
-                <div class="product-content">
-                    <div class="product-heading">
-                    <div class="product-name">Xiaomi Notebook Ultra</div>
-                    <div class="price">₹46,999</div>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic4">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/bpMBqLLVitY?mute=1"
+                            allowfullscreen></iframe>
                     </div>
-                    <div class="specs">
-                    <ul>
-                        <li>11th Gen Intel Tiger Lake Core i5-11300H processor</li>
-                        <li>39.62 centimetres IPS 3.2K resolution (3200x2000)</li>
-                        <li>8GB DDR4 3200 MHz | 512GB PCIe NVMe M.2 SSD</li>
-                        <li>Windows 11 Home | Microsoft Office Home</li>
-                        <li>Intel Iris Xe graphics</li>
-                    </ul>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Xiaomi Notebook Ultra</div>
+                            <div class="price">₹46,999</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>11th Gen Intel Tiger Lake Core i5-11300H processor</li>
+                                <li>39.62 centimetres IPS 3.2K resolution (3200x2000)</li>
+                                <li>8GB DDR4 3200 MHz | 512GB PCIe NVMe M.2 SSD</li>
+                                <li>Windows 11 Home | Microsoft Office Home</li>
+                                <li>Intel Iris Xe graphics</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
                     </div>
-                    <div class="product-btns">
-                    <button class="buy-now">Buy Now</button>
-                    <button class="add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
                 </div>
                 <div class="product">
-                <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
-                <div class="product-pic product-pic5">
-                    <iframe class="ytVideo" src="https://www.youtube.com/embed/0VEUgFmNnMQ?mute=1" allowfullscreen></iframe>
-                </div>
-                <div class="product-content">
-                    <div class="product-heading">
-                    <div class="product-name">Redmi Book 15</div>
-                    <div class="price">₹38,999</div>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic5">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/0VEUgFmNnMQ?mute=1"
+                            allowfullscreen></iframe>
                     </div>
-                    <div class="specs">
-                    <ul>
-                        <li>11th Gen Intel Tiger Lake Core i3-1115G4 processor</li>
-                        <li>39.62 centimetres FHD resolution (1920x1080)</li>
-                        <li>8GB DDR4 3200 MHz | 256GB SATA SSD</li>
-                        <li>Windows 11 Home | Microsoft Office Home</li>
-                        <li>2 SuperSpeed USB Type-A 5Gbps, 1 RJ-45 port</li>
-                    </ul>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Redmi Book 15</div>
+                            <div class="price">₹38,999</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>11th Gen Intel Tiger Lake Core i3-1115G4 processor</li>
+                                <li>39.62 centimetres FHD resolution (1920x1080)</li>
+                                <li>8GB DDR4 3200 MHz | 256GB SATA SSD</li>
+                                <li>Windows 11 Home | Microsoft Office Home</li>
+                                <li>2 SuperSpeed USB Type-A 5Gbps, 1 RJ-45 port</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
                     </div>
-                    <div class="product-btns">
-                    <button class="buy-now">Buy Now</button>
-                    <button class="add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
                 </div>
                 <div class="product">
-                <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
-                <div class="product-pic product-pic6">
-                    <iframe class="ytVideo" src="https://www.youtube.com/embed/uRUOC_pHBuA?mute=1" allowfullscreen></iframe>
-                </div>
-                <div class="product-content">
-                    <div class="product-heading">
-                    <div class="product-name">Mi Notebook Horizon Edition 14</div>
-                    <div class="price">₹41,999</div>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic6">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/uRUOC_pHBuA?mute=1"
+                            allowfullscreen></iframe>
                     </div>
-                    <div class="specs">
-                    <ul>
-                        <li>10th Gen Intel Core i5-10210U processor,</li>
-                        <li>Horizon Display|14-Inch (1920X 1080 )Full HD Screen</li>
-                        <li>8GB DDR4-2666MHz RAM | 512 GB SSD</li>
-                        <li>1.6 GHz base speed, 4.2 GHz max speed, 4 Cores</li>
-                        <li>Thin and Light Laptop</li>
-                    </ul>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Mi Notebook Horizon Edition 14</div>
+                            <div class="price">₹41,999</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>10th Gen Intel Core i5-10210U processor,</li>
+                                <li>Horizon Display|14-Inch (1920X 1080 )Full HD Screen</li>
+                                <li>8GB DDR4-2666MHz RAM | 512 GB SSD</li>
+                                <li>1.6 GHz base speed, 4.2 GHz max speed, 4 Cores</li>
+                                <li>Thin and Light Laptop</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
                     </div>
-                    <div class="product-btns">
-                    <button class="buy-now">Buy Now</button>
-                    <button class="add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
                 </div>
             </div>
         </div>
     </div>
-        
+
     <div id="headphones" class="tab-content">
         <div class="headphones">
             <div class="products">
                 <div class="product">
-                <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
-                <div class="product-pic product-pic1">
-                    <iframe class="ytVideo" src="https://www.youtube.com/embed/1ktKuuI3pFs?mute=1" allowfullscreen></iframe>
-                </div>
-                <div class="product-content">
-                    <div class="product-heading">
-                    <div class="product-name">Mi Wired in-Ear Earphones</div>
-                    <div class="price">₹499</div>
-                    </div>
-                    <div class="specs">
-                    <ul>
-                        <li>with Mic</li>
-                        <li>Ultra Deep Bass & Metal Sound Chamber</li>
-                        <li>Lightweight</li>
-                        <li>Anti-slip Design</li>
-                        <li>One-touch Play Button</li>
-                    </ul>
-                    </div>
-                    <div class="product-btns">
-                    <button class="buy-now">Buy Now</button>
-                    <button class="add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
-                </div>
-                <div class="product">
-                <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
-                <div class="product-pic product-pic2">
-                    <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/idkaPf0oNM8?mute=1" allowfullscreen></iframe>
-                </div>
-                <div class="product-content">
-                    <div class="product-heading">
-                    <div class="product-name">REDMI SonicBass Wireless 2</div>
-                    <div class="price">₹1,299</div>
-                    </div>
-                    <div class="specs">
-                    <ul>
-                        <li>With Mic</li>
-                        <li>Wireless range: 10 m</li>
-                        <li>Bluetooth version: 5.2</li>
-                        <li>Battery life: 16 hrs</li>
-                        <li>6 Months Warranty</li>
-                    </ul>
-                    </div>
-                    <div class="product-btns">
-                    <button class="buy-now">Buy Now</button>
-                    <button class="add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
-                </div>
-                <div class="product">
-                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
-                    <div class="product-pic product-pic3">
-                        <iframe class="ytVideo" src="https://www.youtube.com/embed/bd7nRngaWcE?mute=1" allowfullscreen></iframe>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic1">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/1ktKuuI3pFs?mute=1"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="product-content">
                         <div class="product-heading">
-                        <div class="product-name">Redmi by Mi Audio Headset</div>
-                        <div class="price">₹449</div>
+                            <div class="product-name">Mi Wired in-Ear Earphones</div>
+                            <div class="price">₹499</div>
                         </div>
                         <div class="specs">
-                        <ul>
-                            <li>With Mic</li>
-                            <li>Connector type: 3.5 mm</li>
-                            <li>Flatwire: Stays tangle free even in your pocket</li>
-                            <li>Anti-earwax earplugs</li>
-                            <li>Reinforced 90 degree angle audio jack</li>
-                        </ul>
+                            <ul>
+                                <li>with Mic</li>
+                                <li>Ultra Deep Bass & Metal Sound Chamber</li>
+                                <li>Lightweight</li>
+                                <li>Anti-slip Design</li>
+                                <li>One-touch Play Button</li>
+                            </ul>
                         </div>
                         <div class="product-btns">
-                        <button class="buy-now">Buy Now</button>
-                        <button class="add-to-cart">Add to Cart</button>
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic2">
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/idkaPf0oNM8?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">REDMI SonicBass Wireless 2</div>
+                            <div class="price">₹1,299</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>With Mic</li>
+                                <li>Wireless range: 10 m</li>
+                                <li>Bluetooth version: 5.2</li>
+                                <li>Battery life: 16 hrs</li>
+                                <li>6 Months Warranty</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic3">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/bd7nRngaWcE?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Redmi by Mi Audio Headset</div>
+                            <div class="price">₹449</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>With Mic</li>
+                                <li>Connector type: 3.5 mm</li>
+                                <li>Flatwire: Stays tangle free even in your pocket</li>
+                                <li>Anti-earwax earplugs</li>
+                                <li>Reinforced 90 degree angle audio jack</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>
@@ -436,384 +474,414 @@
         <div class="smartwatches">
             <div class="products">
                 <div class="product">
-                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
                     <div class="product-pic product-pic1">
-                        <iframe class="ytVideo" src="https://www.youtube.com/embed/EsfD2StJruE?mute=1" allowfullscreen></iframe>
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/EsfD2StJruE?mute=1"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="product-content">
                         <div class="product-heading">
-                        <div class="product-name">Redmi Watch 3 Active</div>
-                        <div class="price">₹2,999</div>
+                            <div class="product-name">Redmi Watch 3 Active</div>
+                            <div class="price">₹2,999</div>
                         </div>
                         <div class="specs">
-                        <ul>
-                            <li>Bluetooth Calling</li>
-                            <li>Large 1.83" Screen</li>
-                            <li>Upto 12 Days of Battery</li>
-                            <li>5ATM Waterproof</li>
-                            <li>24*7 Health Monitoring</li>
-                        </ul>
+                            <ul>
+                                <li>Bluetooth Calling</li>
+                                <li>Large 1.83" Screen</li>
+                                <li>Upto 12 Days of Battery</li>
+                                <li>5ATM Waterproof</li>
+                                <li>24*7 Health Monitoring</li>
+                            </ul>
                         </div>
                         <div class="product-btns">
-                        <button class="buy-now">Buy Now</button>
-                        <button class="add-to-cart">Add to Cart</button>
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>
                 <div class="product">
-                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
                     <div class="product-pic product-pic2">
-                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/zPtokcoU4Ac?mute=1" allowfullscreen></iframe>
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/zPtokcoU4Ac?mute=1"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="product-content">
                         <div class="product-heading">
-                        <div class="product-name">Mi Watch REVOLVE</div>
-                        <div class="price">₹5,999</div>
+                            <div class="product-name">Mi Watch REVOLVE</div>
+                            <div class="price">₹5,999</div>
                         </div>
                         <div class="specs">
-                        <ul>
-                            <li>Premium Metallic Frame & AMOLED Display</li>
-                            <li>Pro Exercise ALGORITHM</li>
-                            <li>10 Professional Sports Modes</li>
-                            <li>110+ watch faces</li>
-                            <li>Runs for up to 14 Days</li>
-                        </ul>
+                            <ul>
+                                <li>Premium Metallic Frame & AMOLED Display</li>
+                                <li>Pro Exercise ALGORITHM</li>
+                                <li>10 Professional Sports Modes</li>
+                                <li>110+ watch faces</li>
+                                <li>Runs for up to 14 Days</li>
+                            </ul>
                         </div>
                         <div class="product-btns">
-                        <button class="buy-now">Buy Now</button>
-                        <button class="add-to-cart">Add to Cart</button>
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>
                 <div class="product">
-                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
                     <div class="product-pic product-pic3">
-                        <iframe class="ytVideo" src="https://www.youtube.com/embed/bzvkS-ytMIY?mute=1" allowfullscreen></iframe>
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/bzvkS-ytMIY?mute=1"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="product-content">
                         <div class="product-heading">
-                        <div class="product-name">Redmi Smart Band Pro</div>
-                        <div class="price">₹1,999</div>
+                            <div class="product-name">Redmi Smart Band Pro</div>
+                            <div class="price">₹1,999</div>
                         </div>
                         <div class="specs">
-                        <ul>
-                            <li>Cont. SpO₂-Tracking</li>
-                            <li>Always-On Heart Rate Monitoring</li>
-                            <li>Big AMOLED display</li>
-                            <li>110+ Pro Workout Modes</li>
-                            <li>Always-On Display</li>
-                        </ul>
+                            <ul>
+                                <li>Cont. SpO₂-Tracking</li>
+                                <li>Always-On Heart Rate Monitoring</li>
+                                <li>Big AMOLED display</li>
+                                <li>110+ Pro Workout Modes</li>
+                                <li>Always-On Display</li>
+                            </ul>
                         </div>
                         <div class="product-btns">
-                        <button class="buy-now">Buy Now</button>
-                        <button class="add-to-cart">Add to Cart</button>
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>
                 <div class="product">
-                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
                     <div class="product-pic product-pic4">
-                        <iframe class="ytVideo" src="https://www.youtube.com/embed/BK4B0qldnT4?mute=1" allowfullscreen></iframe>
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/BK4B0qldnT4?mute=1"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="product-content">
                         <div class="product-heading">
-                        <div class="product-name">Redmi Watch GPS</div>
-                        <div class="price">₹1,999</div>
+                            <div class="product-name">Redmi Watch GPS</div>
+                            <div class="price">₹1,999</div>
                         </div>
                         <div class="specs">
-                        <ul>
-                            <li>1.4" LCD display</li>
-                            <li>SpO₂ Monitor</li>
-                            <li>11 sports modes</li>
-                            <li>Up to 10 days of battery life</li>
-                            <li>5ATM Water Resistant</li>
-                        </ul>
+                            <ul>
+                                <li>1.4" LCD display</li>
+                                <li>SpO₂ Monitor</li>
+                                <li>11 sports modes</li>
+                                <li>Up to 10 days of battery life</li>
+                                <li>5ATM Water Resistant</li>
+                            </ul>
                         </div>
                         <div class="product-btns">
-                        <button class="buy-now">Buy Now</button>
-                        <button class="add-to-cart">Add to Cart</button>
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>
                 <div class="product">
-                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
                     <div class="product-pic product-pic5">
-                        <iframe class="ytVideo" src="https://www.youtube.com/embed/L_4evZOH9SU?mute=1" allowfullscreen></iframe>
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/L_4evZOH9SU?mute=1"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="product-content">
                         <div class="product-heading">
-                        <div class="product-name">Redmi Watch 2 Lite</div>
-                        <div class="price">₹2,199</div>
+                            <div class="product-name">Redmi Watch 2 Lite</div>
+                            <div class="price">₹2,199</div>
                         </div>
                         <div class="specs">
-                        <ul>
-                            <li>Multi-System Standalone GPS</li>
-                            <li>Cont. SpO₂ Tracking</li>
-                            <li>100+ fitness modes</li>
-                            <li>3.94cm HD edge Display</li>
-                            <li>5ATM Water Resistant</li>
-                        </ul>
+                            <ul>
+                                <li>Multi-System Standalone GPS</li>
+                                <li>Cont. SpO₂ Tracking</li>
+                                <li>100+ fitness modes</li>
+                                <li>3.94cm HD edge Display</li>
+                                <li>5ATM Water Resistant</li>
+                            </ul>
                         </div>
                         <div class="product-btns">
-                        <button class="buy-now">Buy Now</button>
-                        <button class="add-to-cart">Add to Cart</button>
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>
                 <div class="product">
-                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
                     <div class="product-pic product-pic6">
-                        <iframe class="ytVideo" src="https://www.youtube.com/embed/0mwoHS2V0jw?mute=1" allowfullscreen></iframe>
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/0mwoHS2V0jw?mute=1"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="product-content">
                         <div class="product-heading">
-                        <div class="product-name">MI Revolve Active Watch</div>
-                        <div class="price">₹1,999</div>
+                            <div class="product-name">MI Revolve Active Watch</div>
+                            <div class="price">₹1,999</div>
                         </div>
                         <div class="specs">
-                        <ul>
-                            <li>Multi-System Standalone GPS</li>
-                            <li>Cont. SpO₂ Tracking</li>
-                            <li>117 fitness modes</li>
-                            <li>1.39-in HD edge Display</li>
-                            <li>5ATM Water Resistant</li>
-                        </ul>
+                            <ul>
+                                <li>Multi-System Standalone GPS</li>
+                                <li>Cont. SpO₂ Tracking</li>
+                                <li>117 fitness modes</li>
+                                <li>1.39-in HD edge Display</li>
+                                <li>5ATM Water Resistant</li>
+                            </ul>
                         </div>
                         <div class="product-btns">
-                        <button class="buy-now">Buy Now</button>
-                        <button class="add-to-cart">Add to Cart</button>
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <div id="appliances" class="tab-content">
         <div class="appliances">
             <div class="products">
                 <div class="product">
-                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
                     <div class="product-pic product-pic1">
-                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/kdXHT8u6rM4?mute=1" allowfullscreen></iframe>
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/kdXHT8u6rM4?mute=1"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="product-content">
                         <div class="product-heading">
-                        <div class="product-name">Xiaomi UniBlade Trimmer</div>
-                        <div class="price">₹1,499</div>
+                            <div class="product-name">Xiaomi UniBlade Trimmer</div>
+                            <div class="price">₹1,499</div>
                         </div>
                         <div class="specs">
-                        <ul>
-                            <li>3-Way Precision Shaving head</li>
-                            <li>Advanced Mesh Blades</li>
-                            <li>Rotary Comb for Versatile Styles</li>
-                            <li>Omnidirectional Blade</li>
-                            <li>Universal Type-C charging</li>
-                        </ul>
+                            <ul>
+                                <li>3-Way Precision Shaving head</li>
+                                <li>Advanced Mesh Blades</li>
+                                <li>Rotary Comb for Versatile Styles</li>
+                                <li>Omnidirectional Blade</li>
+                                <li>Universal Type-C charging</li>
+                            </ul>
                         </div>
                         <div class="product-btns">
-                        <button class="buy-now">Buy Now</button>
-                        <button class="add-to-cart">Add to Cart</button>
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>
                 <div class="product">
-                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
                     <div class="product-pic product-pic2">
-                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/T9SRddqxsnM?mute=1" allowfullscreen></iframe>
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/T9SRddqxsnM?mute=1"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="product-content">
                         <div class="product-heading">
-                        <div class="product-name">Xiaomi Beard Trimmer 2C</div>
-                        <div class="price">₹1,199</div>
+                            <div class="product-name">Xiaomi Beard Trimmer 2C</div>
+                            <div class="price">₹1,199</div>
                         </div>
                         <div class="specs">
-                        <ul>
-                            <li>0.5mm precision</li>
-                            <li>90-minute runtime and a quick 2-hr charging time</li>
-                            <li>40 Lengths Precise Trimming</li>
-                            <li>LED indicator</li>
-                            <li>Universal Type-C charging</li>
-                        </ul>
+                            <ul>
+                                <li>0.5mm precision</li>
+                                <li>90-minute runtime and a quick 2-hr charging time</li>
+                                <li>40 Lengths Precise Trimming</li>
+                                <li>LED indicator</li>
+                                <li>Universal Type-C charging</li>
+                            </ul>
                         </div>
                         <div class="product-btns">
-                        <button class="buy-now">Buy Now</button>
-                        <button class="add-to-cart">Add to Cart</button>
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>
                 <div class="product">
-                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
                     <div class="product-pic product-pic3">
-                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/IYh8g764S6Q?mute=1" allowfullscreen></iframe>
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/IYh8g764S6Q?mute=1"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="product-content">
                         <div class="product-heading">
-                        <div class="product-name">Xiaomi Smart TV 5A 32 inch</div>
-                        <div class="price">₹11,499</div>
+                            <div class="product-name">Xiaomi Smart TV 5A 32 inch</div>
+                            <div class="price">₹11,499</div>
                         </div>
                         <div class="specs">
-                        <ul>
-                            <li>Premium Metal Bezel-less Design</li>
-                            <li>Full HD Display</li>
-                            <li>Vivid Picture Engine</li>
-                            <li>Dolby Audio</li>
-                            <li>24W Immersive Speakers</li>
-                        </ul>
+                            <ul>
+                                <li>Premium Metal Bezel-less Design</li>
+                                <li>Full HD Display</li>
+                                <li>Vivid Picture Engine</li>
+                                <li>Dolby Audio</li>
+                                <li>24W Immersive Speakers</li>
+                            </ul>
                         </div>
                         <div class="product-btns">
-                        <button class="buy-now">Buy Now</button>
-                        <button class="add-to-cart">Add to Cart</button>
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>
                 <div class="product">
-                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
                     <div class="product-pic product-pic4">
-                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/pFdroQtnsJI?mute=1" allowfullscreen></iframe>
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/pFdroQtnsJI?mute=1"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="product-content">
                         <div class="product-heading">
-                        <div class="product-name">Xiaomi Smart Air Fryer</div>
-                        <div class="price">₹5,999</div>
+                            <div class="product-name">Xiaomi Smart Air Fryer</div>
+                            <div class="price">₹5,999</div>
                         </div>
                         <div class="specs">
-                        <ul>
-                            <li>Gives you low-fat food with 90% less oil</li>
-                            <li>Supports up to 24hrs scheduled cooking</li>
-                            <li>Temperature can be adjusted between 40°C-200°C</li>
-                            <li>1500W heating power</li>
-                            <li>Get more than 90+ smart recipes with voice control</li>
-                        </ul>
+                            <ul>
+                                <li>Gives you low-fat food with 90% less oil</li>
+                                <li>Supports up to 24hrs scheduled cooking</li>
+                                <li>Temperature can be adjusted between 40°C-200°C</li>
+                                <li>1500W heating power</li>
+                                <li>Get more than 90+ smart recipes with voice control</li>
+                            </ul>
                         </div>
                         <div class="product-btns">
-                        <button class="buy-now">Buy Now</button>
-                        <button class="add-to-cart">Add to Cart</button>
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>
                 <div class="product">
-                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
                     <div class="product-pic product-pic5">
-                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/SGliwU-CHf8?mute=1" allowfullscreen></iframe>
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/SGliwU-CHf8?mute=1"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="product-content">
                         <div class="product-heading">
-                        <div class="product-name">Xiaomi Smart Standing Fan 2</div>
-                        <div class="price">₹3,999</div>
+                            <div class="product-name">Xiaomi Smart Standing Fan 2</div>
+                            <div class="price">₹3,999</div>
                         </div>
                         <div class="specs">
-                        <ul>
-                            <li>Silent BLDC Inverter Motor</li>
-                            <li>7+5 Wing Shaped Blade</li>
-                            <li>Natural Breeze Mode</li>
-                            <li>Voice  & App Control Enabled</li>
-                            <li>Lightweight & Minimalistic</li>
-                        </ul>
+                            <ul>
+                                <li>Silent BLDC Inverter Motor</li>
+                                <li>7+5 Wing Shaped Blade</li>
+                                <li>Natural Breeze Mode</li>
+                                <li>Voice & App Control Enabled</li>
+                                <li>Lightweight & Minimalistic</li>
+                            </ul>
                         </div>
                         <div class="product-btns">
-                        <button class="buy-now">Buy Now</button>
-                        <button class="add-to-cart">Add to Cart</button>
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>
                 <div class="product">
-                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
                     <div class="product-pic product-pic6">
-                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/JYKq7q9rXtU?mute=1" allowfullscreen></iframe>
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/JYKq7q9rXtU?mute=1"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="product-content">
                         <div class="product-heading">
-                        <div class="product-name">Xiaomi Smart Air Purifier 4</div>
-                        <div class="price">₹14,999</div>
+                            <div class="product-name">Xiaomi Smart Air Purifier 4</div>
+                            <div class="price">₹14,999</div>
                         </div>
                         <div class="specs">
-                        <ul>
-                            <li>Dust and pollen filtration</li>
-                            <li>Negative Air Ionization</li>
-                            <li>516sq.ft. Large effective coverage area</li>
-                            <li>99.97% filtration of 0.3μm particles</li>
-                            <li>32.1dB(A) low noise</li>
-                        </ul>
+                            <ul>
+                                <li>Dust and pollen filtration</li>
+                                <li>Negative Air Ionization</li>
+                                <li>516sq.ft. Large effective coverage area</li>
+                                <li>99.97% filtration of 0.3μm particles</li>
+                                <li>32.1dB(A) low noise</li>
+                            </ul>
                         </div>
                         <div class="product-btns">
-                        <button class="buy-now">Buy Now</button>
-                        <button class="add-to-cart">Add to Cart</button>
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>
                 <div class="product">
-                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
                     <div class="product-pic product-pic7">
-                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/HVTKUNCpx-A?mute=1" allowfullscreen></iframe>
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/HVTKUNCpx-A?mute=1"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="product-content">
                         <div class="product-heading">
-                        <div class="product-name">Xiaomi Robot Vacuum Mop 2 Pro</div>
-                        <div class="price">₹29,999</div>
+                            <div class="product-name">Xiaomi Robot Vacuum Mop 2 Pro</div>
+                            <div class="price">₹29,999</div>
                         </div>
                         <div class="specs">
-                        <ul>
-                            <li>Professional Mopping Mode 2.0</li>
-                            <li>3000Pa Powerful Suction</li>
-                            <li>Intelligent Connected Experience</li>
-                            <li>Advanced Battery Power 5200mAH</li>
-                            <li>19 sensors for 2 Pro</li>
-                        </ul>
+                            <ul>
+                                <li>Professional Mopping Mode 2.0</li>
+                                <li>3000Pa Powerful Suction</li>
+                                <li>Intelligent Connected Experience</li>
+                                <li>Advanced Battery Power 5200mAH</li>
+                                <li>19 sensors for 2 Pro</li>
+                            </ul>
                         </div>
                         <div class="product-btns">
-                        <button class="buy-now">Buy Now</button>
-                        <button class="add-to-cart">Add to Cart</button>
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>
                 <div class="product">
-                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
                     <div class="product-pic product-pic8">
-                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/qXP7pubUANs?mute=1" allowfullscreen></iframe>
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/qXP7pubUANs?mute=1"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="product-content">
                         <div class="product-heading">
-                        <div class="product-name">Mi 360 Security Camera 2K Pro</div>
-                        <div class="price">₹4,499</div>
+                            <div class="product-name">Mi 360 Security Camera 2K Pro</div>
+                            <div class="price">₹4,499</div>
                         </div>
                         <div class="specs">
-                        <ul>
-                            <li>2K resolution Video quality</li>
-                            <li>Full-color picture in low light</li>
-                            <li>Dual-band Wi-Fi</li>
-                            <li>360° pan-tilt-zoom for all-round Monitoring</li>
-                            <li>AI Human Detection</li>
-                        </ul>
+                            <ul>
+                                <li>2K resolution Video quality</li>
+                                <li>Full-color picture in low light</li>
+                                <li>Dual-band Wi-Fi</li>
+                                <li>360° pan-tilt-zoom for all-round Monitoring</li>
+                                <li>AI Human Detection</li>
+                            </ul>
                         </div>
                         <div class="product-btns">
-                        <button class="buy-now">Buy Now</button>
-                        <button class="add-to-cart">Add to Cart</button>
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>
                 <div class="product">
-                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
                     <div class="product-pic product-pic9">
-                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/7VJpiiq-g-I?mute=1" allowfullscreen></iframe>
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/7VJpiiq-g-I?mute=1"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="product-content">
                         <div class="product-heading">
-                        <div class="product-name">Mi Smart Water Purifier</div>
-                        <div class="price">₹11,999</div>
+                            <div class="product-name">Mi Smart Water Purifier</div>
+                            <div class="price">₹11,999</div>
                         </div>
                         <div class="specs">
-                        <ul>
-                            <li>Real-Time TDS Monitoring</li>
-                            <li>Auto Water Level Detector</li>
-                            <li>Filter Life of up to 12 Months</li>
-                            <li>Real-Time Filter Life Monitoring</li>
-                            <li>In-Tank UV Sterilization</li>
-                        </ul>
+                            <ul>
+                                <li>Real-Time TDS Monitoring</li>
+                                <li>Auto Water Level Detector</li>
+                                <li>Filter Life of up to 12 Months</li>
+                                <li>Real-Time Filter Life Monitoring</li>
+                                <li>In-Tank UV Sterilization</li>
+                            </ul>
                         </div>
                         <div class="product-btns">
-                        <button class="buy-now">Buy Now</button>
-                        <button class="add-to-cart">Add to Cart</button>
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>
@@ -825,7 +893,7 @@
 
     <footer>
         <div class="footer-section first">
-          <span class="header">Tech Junction</span><br><br>
+          <span class="header"><span style="color: rgb(85, 98, 215);">A</span>mbience</span><br><br>
           Courtesy, your friendly neighbourhood Electronics Supplier!!!
           <h4>Accepted Payments</h4>
           <div class="accepted-payments">
@@ -843,9 +911,9 @@
           <h3>Categories</h3>
           <ul class="footer-categories">
             <li><a href="mobiles.html">Mobiles</a></li>
-            <li><a href="">Laptops</a></li>
-            <li><a href="">Audio Devices</a></li>
-            <li><a href="">Wearables</a></li>
+            <li><a href="laptops.html">Laptops</a></li>
+            <li><a href="audio-devices.html">Audio Devices</a></li>
+            <li><a href="wearables.html">Wearables</a></li>
             <li><a href="">Kitchen Appliances</a></li>
             <li><a href="">Home Appliances</a></li>
           </ul>
@@ -853,13 +921,13 @@
         <div class="footer-section">
           <h3>Get to Know Us</h3>
           <ul class="footer-gettoknowus">
-            <li><a href="aboutus.html">About Tech Junction</a></li>
+            <li><a href="aboutus.html">About Ambience</a></li>
             <li><a href="">Careers</a></li>
             <li><a href="">News & Blog</a></li>
             <li><a href="">Help</a></li>
             <li><a href="">Press Center</a></li>
             <li><a href="">Shop by Location</a></li>
-            <li><a href="">Tech Junction Brands</a></li>
+            <li><a href="">Ambience Brands</a></li>
             <li><a href="">Affiliate & Partners</a></li>
             <li><a href="">Ideas and Guides</a></li>
           </ul>
@@ -871,13 +939,13 @@
             <li><a href="">Mobile App</a></li>
             <li><a href="">Shipping & Delivery</a></li>
             <li><a href="">Order Pickup</a></li>
-            <li><a href="">Account Signup</a></li>
+            <li><a href="signup.html">Account Signup</a></li>
           </ul>
         </div>
         <div class="footer-section">
           <h3>Help</h3>
           <ul class="footer-help">
-            <li><a href="">Tech Junction Help</a></li>
+            <li><a href="">Ambience Help</a></li>
             <li><a href="">Returns</a></li>
             <li><a href="">Track Orders</a></li>
             <li><a href="contactus.html">Contact Us</a></li>
@@ -889,4 +957,5 @@
 </body>
 <script src="/js/mobiles.js"></script>
 <script src="/js/brand.js"></script>
+
 </html>

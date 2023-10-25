@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/x-icon" href="/images/logo2.png">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/mobiles.css">
   <meta charset="UTF-8">
   <script src="https://kit.fontawesome.com/14f6e31829.js" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mobile Phones</title>
+  <title>Mobile Phones - Shop by Category</title>
 </head>
 <body>
   <!-- header -->
   <nav>
-      <span class="header">
-        Tech Junction
-      </span>
-      <a href="index.html">Home</a>
-      <a href="categories.html">Categories</a>
-      <a href="contactus.html">Contact us</a>
-      <a href="aboutus.html">About us</a>
-      <div class="search">
-        <input type="text" class="searchbar" placeholder="Search...">
-        <input type="submit" class="submit-btn" value="Search">
-      </div>
-      <a href="signup.html" class="signup"><i class="far fa-user"></i> <span class="account">Account</span></a>
+    <span class="header">
+      <a href="index.html"><span style="color: rgb(85, 98, 215);">A</span>mbience</a>
+  </span>
+  <div class="nav-btns">
+    <a href="categories.html">Categories</a>
+    <a href="contactus.html">Contact us</a>
+    <a href="aboutus.html">About us</a>
+    <div class="search">
+    <input type="text" class="searchbar" placeholder="Search...">
+    <input type="submit" class="submit-btn" value="Search">
+    </div>
+    <a href="signup.html" class="signup"><i class="far fa-user"></i> <span class="account">Account</span></a>
+    <a href="shopping-cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+  </div>
   </nav>
   <video autoplay muted loop class="video1">
     <source src="videos/redmi note 12 pro 5g.mp4" type="video/mp4">
@@ -31,40 +33,46 @@
   <div class="content">
     <div class="mobiles">
       <div class="products">
-        <div class="product">
-          <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
-          <div class="product-pic product-pic1">
-            <iframe class="ytVideo" src="https://www.youtube.com/embed/5kQRU7TDhWY?mute=1" allowfullscreen></iframe>
+        
+          <div class="product">
+            <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
+              <div class="product-pic product-pic1">
+                <iframe class="ytVideo" src="https://www.youtube.com/embed/5kQRU7TDhWY?mute=1" allowfullscreen></iframe>
+              </div>
+              <a href="redmi_note_12_pro.html">
+                <div class="product-content">
+                  <div class="product-heading">
+                    <div class="product-name">Redmi Note 12 Pro 5G</div>
+                    <div class="price">₹23,999</div>
+                  </div>
+                  <div class="specs">
+                    <ul>
+                      <li>6 GB RAM | 128 GB ROM</li>
+                      <li>16.94 cm (6.67 inch) Full HD+ AMOLED Display</li>
+                      <li>50MP (OIS) + 8MP + 2MP | 16MP Front Camera</li>
+                      <li>5000 mAh Lithium Polymer Battery</li>
+                      <li>Mediatek Dimensity 1080 Processor</li>
+                    </ul>
+                  </div>
+                  <div class="product-btns">
+                    <button class="buy-now">Buy Now</button>
+                    <button class="add-to-cart">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
           </div>
-          <div class="product-content">
-            <div class="product-heading">
-              <div class="product-name">Redmi Note 12 Pro 5G</div>
-              <div class="price">₹23,999</div>
-            </div>
-            <div class="specs">
-              <ul>
-                <li>6 GB RAM | 128 GB ROM</li>
-                <li>16.94 cm (6.67 inch) Full HD+ AMOLED Display</li>
-                <li>50MP (OIS) + 8MP + 2MP | 16MP Front Camera</li>
-                <li>5000 mAh Lithium Polymer Battery</li>
-                <li>Mediatek Dimensity 1080 Processor</li>
-              </ul>
-            </div>
-            <div class="product-btns">
-              <button class="buy-now">Buy Now</button>
-              <button class="add-to-cart">Add to Cart</button>
-            </div>
-          </div>
-        </div>
+        
+        
         <div class="product">
           <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
           <div class="product-pic product-pic2">
             <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/jdqc-FQPbJU?mute=1" allowfullscreen></iframe>
           </div>
+          <a href="infinixnote305g.html">
           <div class="product-content">
             <div class="product-heading">
               <div class="product-name">Infinix Note 30 5G</div>
-              <div class="price">₹14,999</div>
+              <div class="price">₹13,499</div>
             </div>
             <div class="specs">
               <ul>
@@ -80,6 +88,7 @@
               <button class="add-to-cart">Add to Cart</button>
             </div>
           </div>
+          </a>
         </div>
         <div class="product">
           <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i class="youtube fa-brands fa-youtube"></i></button>
@@ -475,7 +484,7 @@
           <div class="product-content">
             <div class="product-heading">
               <div class="product-name">Google Pixel 7 Pro</div>
-              <div class="price">₹67,999</div>
+              <div class="price">₹63,999</div>
             </div>
             <div class="specs">
               <ul>
@@ -500,7 +509,7 @@
     <!--Footer-->
     <footer>
       <div class="footer-section first">
-        <span class="header">Tech Junction</span><br><br>
+        <span class="header"><span style="color: rgb(85, 98, 215);">A</span>mbience</span><br><br>
         Courtesy, your friendly neighbourhood Electronics Supplier!!!
         <h4>Accepted Payments</h4>
         <div class="accepted-payments">
@@ -518,9 +527,9 @@
         <h3>Categories</h3>
         <ul class="footer-categories">
           <li><a href="mobiles.html">Mobiles</a></li>
-          <li><a href="">Laptops</a></li>
-          <li><a href="">Audio Devices</a></li>
-          <li><a href="">Wearables</a></li>
+          <li><a href="laptops.html">Laptops</a></li>
+          <li><a href="audio-devices.html">Audio Devices</a></li>
+          <li><a href="wearables.html">Wearables</a></li>
           <li><a href="">Kitchen Appliances</a></li>
           <li><a href="">Home Appliances</a></li>
         </ul>
@@ -528,13 +537,13 @@
       <div class="footer-section">
         <h3>Get to Know Us</h3>
         <ul class="footer-gettoknowus">
-          <li><a href="aboutus.html">About Tech Junction</a></li>
+          <li><a href="aboutus.html">About Ambience</a></li>
           <li><a href="">Careers</a></li>
           <li><a href="">News & Blog</a></li>
           <li><a href="">Help</a></li>
           <li><a href="">Press Center</a></li>
           <li><a href="">Shop by Location</a></li>
-          <li><a href="">Tech Junction Brands</a></li>
+          <li><a href="">Ambience Brands</a></li>
           <li><a href="">Affiliate & Partners</a></li>
           <li><a href="">Ideas and Guides</a></li>
         </ul>
@@ -546,13 +555,13 @@
           <li><a href="">Mobile App</a></li>
           <li><a href="">Shipping & Delivery</a></li>
           <li><a href="">Order Pickup</a></li>
-          <li><a href="">Account Signup</a></li>
+          <li><a href="signup.html">Account Signup</a></li>
         </ul>
       </div>
       <div class="footer-section">
         <h3>Help</h3>
         <ul class="footer-help">
-          <li><a href="">Tech Junction Help</a></li>
+          <li><a href="">Ambience Help</a></li>
           <li><a href="">Returns</a></li>
           <li><a href="">Track Orders</a></li>
           <li><a href="contactus.html">Contact Us</a></li>

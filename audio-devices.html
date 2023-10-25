@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Devices - Shop by Category</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/mobiles.css">
+    <link rel="stylesheet" href="/css/brand.css">
+    <link rel="stylesheet" href="/css/audio-devices.css">
+    <script src="https://kit.fontawesome.com/14f6e31829.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="/images/logo2.png">
+</head>
+
+<body>
+    <nav class="navbar">
+        <span class="header">
+            <a href="index.html"><span style="color: rgb(85, 98, 215);">A</span>mbience</a>
+        </span>
+        <div class="nav-btns">
+            <a href="categories.html">Categories</a>
+            <a href="contactus.html">Contact us</a>
+            <a href="aboutus.html">About us</a>
+            <div class="search">
+            <input type="text" class="searchbar" placeholder="Search...">
+            <input type="submit" class="submit-btn" value="Search">
+            </div>
+            <a href="signup.html" class="signup"><i class="far fa-user"></i> <span class="account">Account</span></a>
+            <a href="shopping-cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </nav>
+
+    <div class="banner"></div>
+
+    <div class="tabs">
+        <button class="tab" onclick="openTab(event, 'anc')" id="defaultOpen">ANC Headphones</button>
+        <button class="tab" onclick="openTab(event, 'speakers')">Bluetooth Speakers</button>
+        <button class="tab" onclick="openTab(event, 'headphones')">Bluetooth Headphones</button>
+        <button class="tab" onclick="openTab(event, 'tws')">Truewireless Headphones</button>
+        <button class="tab" onclick="openTab(event, 'soundbars')">Soundbars</button>
+    </div>
+
+    <div id="anc" class="tab-content">
+        <div class="anc">
+            <div class="products">
+                    <div class="product">
+                        <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                                class="youtube fa-brands fa-youtube"></i></button>
+                        <div class="product-pic product-pic1">
+                            <iframe class="ytVideo" src="https://www.youtube.com/embed/7obuq-uQQn8?mute=1"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="product-content">
+                            <div class="product-heading">
+                                <div class="product-name">realme Buds Wireless 3</div>
+                                <div class="price">₹1,699</div>
+                            </div>
+                            <div class="specs">
+                                <ul>
+                                    <li>With Mic:Yes</li>
+                                    <li>Battery life: 40 hrs</li>
+                                    <li>13.6mm Dynamic Titanized Bass Driver</li>
+                                    <li>30dB ANC with 360 degree Spatial Audio Effect</li>
+                                    <li>Fast 10 min charging for 25 hrs playback</li>
+                                </ul>
+                            </div>
+                            <div class="product-btns">
+                                <button class="buy-now">Buy Now</button>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic2">
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/xKdjay7IdAE?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Wings Vibe Bluetooth Headset</div>
+                            <div class="price">₹1,799</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>With Mic:Yes</li>
+                                <li>Bluetooth version: 5</li>
+                                <li>Wireless range: 10 m</li>
+                                <li>Battery life: 24 hrs | Charging time: 2 hrs</li>
+                                <li>Type-C Charging Port</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic3">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/mR8A-0IoSHE?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Nothing Ear(2)</div>
+                            <div class="price">₹21,490</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>Dual chamber sound. Custom 11.6 mm driver</li>
+                                <li>Smart Active Noise Cancellation up to 40dB</li>
+                                <li>With Adaptive Mode and Personalised ANC</li>
+                                <li>Dual Connection</li>
+                                <li>Battery life: 36 hrs</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic4">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/WoMzTM4gEGs?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">OnePlus Bullets Wireless Z2</div>
+                            <div class="price">₹1,999</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>12.4mm dynamic driver</li>
+                                <li>45dB Hybrid Active Noise Cancellation</li>
+                                <li>3-mic AI Call Noise Cancellation</li>
+                                <li>Quick Switch</li>
+                                <li>10 mins Ultra Fast Charging, 20 hours of Playback</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic5">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/RufsN0YoS3A?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Noise Buds VS102 Pro</div>
+                            <div class="price">₹1,299</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>Battery life: 70 hr | Type - C Charging Port</li>
+                                <li>Active Noise Cancellation up to 25dB</li>
+                                <li>Transparency Mode | ENC with Quad Mic</li>
+                                <li> Immersive Audio with 11mm driver</li>
+                                <li>Ultra-low latency (up to 40ms)</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic6">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/j1OClVB1p-k?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">boAt Airdopes 161 ANC</div>
+                            <div class="price">₹1,399</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>Active Noise Cancellation upto 32dB</li>
+                                <li>6 HRS/Charge + Additional 44HRS with Case</li>
+                                <li>10 Mins Charge= 150 Mins Playback</li>
+                                <li>50ms Low Latency for Gaming</li>
+                                <li>Quad Mics ENx Technology: Clear Voice Calls</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="speakers" class="tab-content">
+        <div class="speakers">
+            <div class="products">
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic1">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/gTh-9bByKTQ?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">boAt Stone 650</div>
+                            <div class="price">₹1,399</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>Power Output(RMS): 10 W</li>
+                                <li>Power Source: Battery</li>
+                                <li>Multiple Modes of Connectivity: BT, AUX, SD Card</li>
+                                <li>Wireless music streaming via Bluetooth</li>
+                                <li>Up to 7H Playback</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic2">
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/qoldyVn5A8w?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">JBL Flip Essential 2</div>
+                            <div class="price">₹4,499</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>Bold Portable Sound | IPX7 Waterproof</li>
+                                <li>Eco-friendly recycled materials and packaging</li>
+                                <li>Wireless music streaming via Bluetooth</li>
+                                <li>Wireless range: 10 m</li>
+                                <li>Battery life: 10 hrs | Charging time: 3 hrs</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic3">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/gTh-9bByKTQ?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">boAt Stone 350</div>
+                            <div class="price">₹1,299</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>Battery life: 12 hrs</li>
+                                <li>Wireless range: 10 m</li>
+                                <li>Wireless music streaming via Bluetooth</li>
+                                <li>IPX7: Splash and Sweat Shield</li>
+                                <li>Multiple Connectivity: BT, TF Card and AUX</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic4">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/VfYP9Xr0hsM?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">JBL Go Essential</div>
+                            <div class="price">₹1,199</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>Rich Bass</li>
+                                <li>5 Hrs Playtime</li>
+                                <li>IPX7 Waterproof, Ultra Portable</li>
+                                <li>Wireless range: 10 m</li>
+                                <li>Bluetooth Version: 4.2</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic5">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/cG1Xo6Tz3Yk?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">realme Cobble</div>
+                            <div class="price">₹799</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>5 Watts Dynamic Bass Boost Driver</li>
+                                <li>Stereo Pairing & 3 Equalizer presets</li>
+                                <li>IPX5 Water Resistant</li>
+                                <li>9 hours playtime | Type C Charging</li>
+                                <li>88ms Super Low Latency </li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic6">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/DcFF9_vMwjU?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Portronics SoundDrum 1</div>
+                            <div class="price">₹899</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>Portable, Inbuilt-FM & Type C Charging</li>
+                                <li>Power Output(RMS): 10 W</li>
+                                <li>5 to 6 hours non-stop playtime</li>
+                                <li>Bluetooth Version: 5.0</li>
+                                <li>Wireless music streaming via Bluetooth</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="headphones" class="tab-content">
+        <div class="headphones">
+            <div class="products">
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic1">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/n9E5qD_bHng?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Mivi Collar Classic Pro</div>
+                            <div class="price">₹699</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>with Mic</li>
+                                <li>Playback: Up to 72 Hours</li>
+                                <li>Type-C Interface</li>
+                                <li>Sweat & Dust Resistance: IPX5</li>
+                                <li>Fast Charging Technology: Yes</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic2">
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/QvxefDUXl24?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">boAt Rockerz 333 Pro</div>
+                            <div class="price">₹1,299</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>IPX5| Dual Pairing</li>
+                                <li>ENx Technology: Be Clearly Heard</li>
+                                <li>ASAP Charge: 10 Mins= 20 Hours</li>
+                                <li>Battery Time: 60 Hours</li>
+                                <li>Wireless range: 10 m</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic3">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/WoMzTM4gEGs?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">OnePlus Bullets Wireless Z2</div>
+                            <div class="price">₹1,999</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>12.4mm dynamic driver</li>
+                                <li>45dB Hybrid Active Noise Cancellation</li>
+                                <li>3-mic AI Call Noise Cancellation</li>
+                                <li>Quick Switch</li>
+                                <li>10 mins Ultra Fast Charging, 20 hours of Playback</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic4">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/jl0E5BMfwjo?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Boult Audio ProBass EQCharge</div>
+                            <div class="price">₹699</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>5mins Charge = 7hrs Playtime</li>
+                                <li>BoomX Technology for Rich Bass</li>
+                                <li>Latest Bluetooth 5.2 for seamless connectivity</li>
+                                <li>Fast Pairing | IPX5 Water-Resistant</li>
+                                <li>Touch Controls with Voice Assistant</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic5">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/ygLniLHJOl0?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">SONY WI-C100</div>
+                            <div class="price">₹1,399</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>High quality sound</li>
+                                <li>Up to 25hrs battery life</li>
+                                <li>Clear hands-free calls</li>
+                                <li>IPX4 water resistance</li>
+                                <li>Fast Pairing</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic6">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/tQR5wQzajQQ?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">JBL Tune 175BT Flex Neckband</div>
+                            <div class="price">₹1,499</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>14-hour battery life</li>
+                                <li>15 min of charge provides one 1 Hour playtime</li>
+                                <li>Multi-Point Connectivity</li>
+                                <li>With 3 Button remote, access Hands free calling</li>
+                                <li>Magnetic Cable</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tws" class="tab-content">
+        <div class="tws">
+            <div class="products">
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic1">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/f3DfJxvkN-8?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">APPLE AirPods Pro (2nd generation)</div>
+                            <div class="price">₹18,499</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>Active Noise Cancellation</li>
+                                <li>Adaptive Transparency</li>
+                                <li>Personalised Spatial Audio with dynamic tracking</li>
+                                <li>Connector type: No</li>
+                                <li>With Mic:Yes</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic2">
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/IqrDzKn0lkU?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Noise Buds VS102</div>
+                            <div class="price">₹899</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>Bluetooth version: v5.1</li>
+                                <li>IPX5 water resistance</li>
+                                <li>Immersive Audio with 11mm driver</li>
+                                <li>Upto 50 Hours of Total Playtime</li>
+                                <li>Unique Flybird Design</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic3">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/rykoTbCLPO0?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">OPPO Enco Buds 2</div>
+                            <div class="price">₹1,399</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>10mm Dynamic Bass Boost Driver</li>
+                                <li>Enco Live Stereo Sound Effects</li>
+                                <li>80ms Ultra Low Latency game mode</li>
+                                <li>AI Deep Noise Cancellation</li>
+                                <li>Intelligent Touch Controls | IPX4 Water Resistant</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic4">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/8jkMZdpHHsE?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">OnePlus Nord Buds 2</div>
+                            <div class="price">₹2,499</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>Bluetooth version: 5.3</li>
+                                <li>Battery life: 36 Hours</li>
+                                <li>25dB of Active Noise Cancellations</li>
+                                <li>12.4 mm dynamic drivers for deeper bass</li>
+                                <li>BassWave bass enhancement algorithm</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic5">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/aqa21LD5o5g?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">SONY WF-C500</div>
+                            <div class="price">₹3,990</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>Wireless range: 10 m</li>
+                                <li>Battery life: 20 Hrs | Charging time: 2.5 Hrs</li>
+                                <li>Splash-proof and sweat-proof with an IPX4 rating</li>
+                                <li>Easier, clearer hands-free calling</li>
+                                <li>Comfort - Small and light for a great fit</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic6">
+                        <iframe class="ytVideo" src="https://www.youtube.com/embed/9RDCuT36vWE?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">JBL Wave 300</div>
+                            <div class="price">₹2,499</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>Battery life: 26 hrs | Charging time: 2 hrs</li>
+                                <li>Open-ear design for a comfort fit</li>
+                                <li>JBL Pure Bass Sound with 12mm Driver</li>
+                                <li>Dual Connect to shift between mono and stereo modes</li>
+                                <li>Touch control & Voice assistant supportt</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="soundbars" class="tab-content">
+        <div class="soundbars">
+            <div class="products">
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic1">
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/mMMSaDnSx7c?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">boAt Aavante Bar 3100D</div>
+                            <div class="price">₹9,999</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>Power Output(RMS): 260 W</li>
+                                <li>Dolby Audio</li>
+                                <li>60W Subwoofer</li>
+                                <li>Multiple Connectivity Modes</li>
+                                <li>5.1 Channel Surround Sound</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic2">
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/LAyF67LCQOM?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">Mivi Fort S16 Soundbar</div>
+                            <div class="price">₹1,099</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>6hrs Battery</li>
+                                <li>90-minute runtime and a quick 2-hr charging time</li>
+                                <li>16W Cinematic Sound</li>
+                                <li>2 Passive Radiators</li>
+                                <li>Multi-Channel Input</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic3">
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/mUN-8w-Wtl8?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">JBL Cinema SB270 2.1</div>
+                            <div class="price">₹9,999</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>220W Soundbar with Wireless Subwoofer</li>
+                                <li>DOLBY Digital Audio</li>
+                                <li>Flexibility of Wired & Wireless music streaming</li>
+                                <li>Dedicated voice mode</li>
+                                <li>Ultra-low-profile</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic4">
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/ZWVg4up6hJk?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">boAt Aavante Bar Octave</div>
+                            <div class="price">₹3,999</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>Built In Subwoofers</li>
+                                <li>Multiple Connectivity: BT v5.0, USB, AUX, HDMI(Arc)</li>
+                                <li>Bass & Treble Controls</li>
+                                <li>Power Output(RMS): 100 W</li>
+                                <li>Get more than 90+ smart recipes with voice control</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic5">
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/vqtGNNucuEs?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">MOTOROLA AmphisoundX Vibe</div>
+                            <div class="price">₹9,999</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>500 W PeakPower Output</li>
+                                <li>Dolby Digital 4K Audio</li>
+                                <li>Powerful 80W Subwoofer, 6.5" Bass Driver</li>
+                                <li>Immersive 3D Surround Sound</li>
+                                <li>7 Audio Modes</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <button class="ytBtn" onclick="showVideo(this)" id="yt-btn"><i
+                            class="youtube fa-brands fa-youtube"></i></button>
+                    <div class="product-pic product-pic6">
+                        <iframe class="ytVideo" id="Ytvideo" src="https://www.youtube.com/embed/Ur31omz8-ek?mute=1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-heading">
+                            <div class="product-name">SONY HT-S20R</div>
+                            <div class="price">₹15,990</div>
+                        </div>
+                        <div class="specs">
+                            <ul>
+                                <li>5.1 separate audio channels with Dolby Digital</li>
+                                <li>Real surround sound</li>
+                                <li>Rear speakers and an external subwoofer work with a 3-ch soundbar to deliver dynamic, immersive, cinematic sound.</li>
+                                <li>A button for every sound</li>
+                            </ul>
+                        </div>
+                        <div class="product-btns">
+                            <button class="buy-now">Buy Now</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <footer>
+        <div class="footer-section first">
+          <span class="header"><span style="color: rgb(85, 98, 215);">A</span>mbience</span><br><br>
+          Courtesy, your friendly neighbourhood Electronics Supplier!!!
+          <h4>Accepted Payments</h4>
+          <div class="accepted-payments">
+            <div class="payment-method visa"></div>
+            <div class="payment-method mastercard"></div>
+            <div class="payment-method paypal"></div>
+            <div class="payment-method applepay"></div>
+            <div class="payment-method gpay"></div>
+            <div class="payment-method amazonpay"></div>
+            <div class="payment-method stripe"></div>
+            <div class="payment-method klarna"></div>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Categories</h3>
+          <ul class="footer-categories">
+            <li><a href="mobiles.html">Mobiles</a></li>
+            <li><a href="laptops.html">Laptops</a></li>
+            <li><a href="audio-devices.html">Audio Devices</a></li>
+            <li><a href="wearables.html">Wearables</a></li>
+            <li><a href="">Kitchen Appliances</a></li>
+            <li><a href="">Home Appliances</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Get to Know Us</h3>
+          <ul class="footer-gettoknowus">
+            <li><a href="aboutus.html">About Ambience</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">News & Blog</a></li>
+            <li><a href="">Help</a></li>
+            <li><a href="">Press Center</a></li>
+            <li><a href="">Shop by Location</a></li>
+            <li><a href="">Ambience Brands</a></li>
+            <li><a href="">Affiliate & Partners</a></li>
+            <li><a href="">Ideas and Guides</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Services</h3>
+          <ul class="footer-services">
+            <li><a href="">Gift Card</a></li>
+            <li><a href="">Mobile App</a></li>
+            <li><a href="">Shipping & Delivery</a></li>
+            <li><a href="">Order Pickup</a></li>
+            <li><a href="signup.html">Account Signup</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Help</h3>
+          <ul class="footer-help">
+            <li><a href="">Ambience Help</a></li>
+            <li><a href="">Returns</a></li>
+            <li><a href="">Track Orders</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="">Feedback</a></li>
+            <li><a href="">Security & Fraud</a></li>
+          </ul>
+        </div>
+      </footer>
+</body>
+<script src="/js/mobiles.js"></script>
+<script src="/js/brand.js"></script>
+
+</html>

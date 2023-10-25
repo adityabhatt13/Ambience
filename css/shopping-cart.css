@@ -1,0 +1,107 @@
+.cart-heading {
+    text-align: center;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 2em;
+}
+
+.cart-content {
+    width: 75%;
+    margin: 1em 3em;
+}
+
+.proceedContainer {
+    border: 1px solid lightgray;
+    width: 20%;
+    height: 150px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.cart-product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgray;
+    margin: 1em 0;
+    padding: 1em;
+}
+
+.cart-product-pic {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+}
+
+.cart-product-content {
+    height: 200px;
+}
+
+.cart-product-heading {
+    font-size: 20px;
+}
+
+.quantity {
+    margin-top: 1em;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    border: 1px solid lightgray;
+    transition: 0.2s ease-in-out;
+}
+
+.quantity:focus {
+    outline: none;
+    border: 1px solid black;
+}
+
+.product-price {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 1em;
+}
+
+.pic1 {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/b/r/f/-original-imaghkvuhzwge3za.jpeg?q=70");
+}
+.pic2 {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/a/x/6/-original-imagqhyfh7ykyjby.jpeg?q=70");
+}
+
+#del {
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.subtotal {
+    text-align: right;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.proceed-subtotal {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#proceedBtn {
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(255, 230, 0);
+}
+
+#proceedBtn:hover {
+    background-color: rgb(247, 222, 0);
+}

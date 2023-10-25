@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="icon" type="image/x-icon" href="/images/logo2.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/shopping-cart.css">
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/14f6e31829.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Ambience</title>
+</head>
+<body>
+    <nav>
+        <span class="header">
+          <a href="index.html"><span style="color: rgb(85, 98, 215);">A</span>mbience</a>
+        </span>
+        <div class="nav-btns">
+          <a href="categories.html">Categories</a>
+          <a href="contactus.html">Contact us</a>
+          <a href="aboutus.html">About us</a>
+          <div class="search">
+          <input type="text" class="searchbar" placeholder="Search...">
+          <input type="submit" class="submit-btn" value="Search">
+          </div>
+          <a href="signup.html" class="signup"><i class="far fa-user"></i> <span class="account">Account</span></a>
+          <a href="shopping-cart.html" style="color: rgb(85, 98, 215);"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </nav>
+    <h1 class="cart-heading">Shopping Cart</h1>
+    <hr>
+    <div class="main-section">
+        <div class="cart-content">
+            <div class="cart-product product1">
+                <div class="cart-product-pic pic1"></div>
+                <div class="cart-product-content">
+                    <div class="cart-product-heading">REDMI Note 12 Pro 5G (Onyx Black, 128 GB) (6 GB RAM)</div>
+                    <div class="product-price">₹20,999</div>
+                    <select name="quantity" class="quantity" id="quantity1">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div id="del"><i class="fas fa-trash"></i></div>
+            </div>
+            <div class="cart-product product2">
+                <div class="cart-product-pic pic2"></div>
+                <div class="cart-product-content">
+                    <div class="cart-product-heading">Infinix Note 30 5G (Interstellar Blue, 128 GB)(4 GB RAM)</div>
+                    <div class="product-price">₹17,999</div>
+                    <select name="quantity" class="quantity" id="quantity2">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div id="del"><i class="fas fa-trash"></i></div>
+            </div>
+            <div class="subtotal">Subtotal (<span id="itemsCount"></span> items) : <span id="total-price"></span></div>
+        </div>
+        <div class="proceedContainer">
+            
+            
+            <div class="proceed-subtotal">Subtotal (<span id="itemsCount"></span> items) : <span id="total-price"></span></div>
+            <br><br>
+            <button id="proceedBtn"><a href="checkout.html">Proceed to Buy</a></button>
+        </div>
+    </div>
+
+    <hr>
+    <!--Footer-->
+    <footer>
+      <div class="footer-section first">
+        <span class="header"><span style="color: rgb(85, 98, 215);">A</span>mbience</span><br><br>
+        Courtesy, your friendly neighbourhood Electronics Supplier!!!
+        <h4>Accepted Payments</h4>
+        <div class="accepted-payments">
+          <div class="payment-method visa"></div>
+          <div class="payment-method mastercard"></div>
+          <div class="payment-method paypal"></div>
+          <div class="payment-method applepay"></div>
+          <div class="payment-method gpay"></div>
+          <div class="payment-method amazonpay"></div>
+          <div class="payment-method stripe"></div>
+          <div class="payment-method klarna"></div>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Categories</h3>
+        <ul class="footer-categories">
+          <li><a href="mobiles.html">Mobiles</a></li>
+          <li><a href="laptops.html">Laptops</a></li>
+          <li><a href="audio-devices.html">Audio Devices</a></li>
+          <li><a href="wearables.html">Wearables</a></li>
+          <li><a href="">Kitchen Appliances</a></li>
+          <li><a href="">Home Appliances</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Get to Know Us</h3>
+        <ul class="footer-gettoknowus">
+          <li><a href="aboutus.html">About Ambience</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">News & Blog</a></li>
+          <li><a href="">Help</a></li>
+          <li><a href="">Press Center</a></li>
+          <li><a href="">Shop by Location</a></li>
+          <li><a href="">Ambience Brands</a></li>
+          <li><a href="">Affiliate & Partners</a></li>
+          <li><a href="">Ideas and Guides</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Services</h3>
+        <ul class="footer-services">
+          <li><a href="">Gift Card</a></li>
+          <li><a href="">Mobile App</a></li>
+          <li><a href="">Shipping & Delivery</a></li>
+          <li><a href="">Order Pickup</a></li>
+          <li><a href="signup.html">Account Signup</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Help</h3>
+        <ul class="footer-help">
+          <li><a href="">Ambience Help</a></li>
+          <li><a href="">Returns</a></li>
+          <li><a href="">Track Orders</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="">Feedback</a></li>
+          <li><a href="">Security & Fraud</a></li>
+        </ul>
+      </div>
+    </footer>
+</body>
+<script src="js/shopping cart.js"></script>
+</html>

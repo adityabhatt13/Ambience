@@ -1,0 +1,47 @@
+.add-pic1 {
+    background-size: 70%;
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/a/x/6/-original-imagqhyfh7ykyjby.jpeg?q=70");
+}
+
+.add-pic2 {
+    background-size: 45%;
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/2/h/g/-original-imagqhyfnphjenys.jpeg?q=70");
+}
+
+.add-pic3 {
+    background-size: 45%;
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/x/g/m/-original-imagqhyfhnpw3z3f.jpeg?q=70");
+}
+
+.add-pic4 {
+    background-size: 80%;
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/w/w/h/note-30-5g-x6711-infinix-original-imagqdvvkweqww7c.jpeg?q=70");
+}
+
+.pic1 {
+    background-image: url(/images/redminote12pro1.jpg);
+}
+
+.pic2 {
+    background-image: url(/images/redminote12pro2.jpg);
+}
+
+.pic3 {
+    margin-bottom: 5em;
+    background-image: url(/images/redminote12pro3.jpg);
+}
+
+.pic4 {
+    margin-bottom: 5em;
+    background-image: url(/images/redminote12pro5.jpg);
+}
+
+.pic5 {
+    margin-bottom: 5em;
+    background-image: url(/images/redminote12pro6.jpg);
+}
+
+.pic6 {
+    background-image: url(/images/redminote12pro7.jpg);
+    margin-bottom: 5em;
+}
